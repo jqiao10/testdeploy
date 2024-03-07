@@ -30,7 +30,7 @@ function App() {
 
 <BrowserRouter basename='/testdeploy'>
       <Routes>
-      <Route path='/testdeploy/uploadlisting/title' element={<Title/>}></Route>
+      <Route path='/uploadlisting/title' element={<Title/>}></Route>
       <Route path='/uploadlisting/info' element={<Info/>}></Route>
       <Route path='/uploadlisting/feature' element={<Feature/>}></Route>
       <Route path='/uploadlisting/amentities' element={<Amentities/>}></Route>
