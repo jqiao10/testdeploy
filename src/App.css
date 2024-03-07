@@ -1,0 +1,222 @@
+/* -----------------Overall ----------------*/
+:root{
+  --base: #FDFFFC;
+  --header: #08415c;
+  --paragraph: #878472;
+  --ezblue: #39a0ed;
+  --ezyellow: #af9b46;
+}
+body{
+  background-color: var(--base);
+
+}
+.stickyFooter{
+  bottom:0;
+  position: sticky;
+  z-index: 100;
+}
+.stickyHeader{
+  top:0;
+  position:Sticky;
+  z-index: 100;
+}
+
+/* -----------------Navbar ----------------*/
+.bar{
+  background-color: var(--ezblue);
+  position: sticky;
+}
+.barcontent{
+  color: var(--header);
+  font-weight: bold;
+  font-size: large;
+}
+.bardetail{
+  margin-left: 5vw;
+}
+
+.justify-content-end{
+  margin-right: 5vw;
+}
+/* -----------------Main Navbar ----------------*/
+.searchBtn{
+  background-color: var(--ezyellow) !important;
+  color: var(--header) !important;
+  height: 50px;
+}
+.searchtext{
+  width: 20vw;
+  height: 50px;
+}
+.searchdate{
+  width:10vw;
+  height: 50px;
+}
+.search-bar{
+  display: inline;
+}
+/* -----------------Upload series ----------------*/
+.explain{
+  text-align: center;
+  color: var(--paragraph);
+  margin-right: 5vw;
+  margin-left: 5vw;
+}
+.uploadQuestion{
+  font-size: 3rem;
+  text-align: center;
+  color: var(--header);
+}
+.uploadContainer{
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column; 
+  text-align: center; 
+}
+.upload{
+  min-height: 80vh;
+}
+
+/* -----------------Uploadtitle ----------------*/
+.title-input{
+  height: 10vh;
+  width: 60vw;
+  text-align: center;
+}
+
+
+/* -----------------NormalBtn ----------------*/
+.landlordButton{
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-top: 5vh; 
+  background-color: var(--ezblue);
+}
+.landlordButton:hover{
+  background-color: var(--ezblue);
+}
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+/* -----------------CounterBtn ----------------*/
+.counter{
+  margin-right: 20vw;
+}
+.questiontitle{
+  margin-left: 20vw;
+  color: var(--header);
+}
+.btn{
+  background-color: var(--ezblue);
+  color: var(--base);
+}
+
+
+/* -----------------Checkboxes for 3 ----------------*/
+/* .checkgrid{
+  grid-template-columns: 100px 50px 100px;
+  grid-template-rows: 80px auto 80px; 
+  column-gap: 10px;
+  row-gap: 15px;
+  justify-items: center;
+}
+.gridItem{
+  place-self: center stretch;
+} */
+
+/* -----------------textbox large ----------------*/
+.textboxlarge{
+  width: 60vw;
+  height: 50vh; 
+  margin: 1vh 0; 
+}
+.wordcounter{
+  margin-left: 40vw;
+  margin-top: -10vh;
+
+}
+/* -----------------textbox small ----------------*/
+.textSmallLabel{
+  margin-right: 1vw;
+}
+.textboxSmall{
+  width: 40vw;
+
+}
+
+/* -----------------Properties/Landlord/Tenant Main----------------*/
+.pro-card{
+  margin-top: 5vh;
+}
+.cardlink{
+  text-decoration: none;
+  color: var(--header);
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 3vh;
+  margin-bottom: 5vh;
+}
+.cardItem{
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+.like-button{
+  margin-left: 2vw;
+  background-color: var(--ezblue);
+  border-color: var(--ezblue);
+}
+.like-button:hover{
+  background-color: var(--ezblue);
+  border-color: var(--ezblue);
+}
+/* -----------------Login----------------*/
+.login{
+  min-height: 70vh;
+}
+
+/* -----------------Footer----------------*/
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 3vw;
+  padding-left: 3vw;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  background-color: var(--ezblue);
+  font-size: large;
+}
+
+.footer-section {
+  display: flex;
+  align-items: center;
+}
+
+.footer-section.company {
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.footer-section a {
+  text-decoration: none;
+  margin: 0 10px; 
+  color: var(--base); 
+}
+
+.footer-section.company span {
+  font-weight: bold;
+}

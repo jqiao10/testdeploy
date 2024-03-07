@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/landlord/static/css/main.f9e15ba3.css",
+    "main.js": "/landlord/static/js/main.596fa0fc.js",
+    "static/js/453.0fff2ecc.chunk.js": "/landlord/static/js/453.0fff2ecc.chunk.js",
+    "static/media/house1.jpeg": "/landlord/static/media/house1.9a35acc4f58655b6a45a.jpeg",
+    "index.html": "/landlord/index.html",
+    "main.f9e15ba3.css.map": "/landlord/static/css/main.f9e15ba3.css.map",
+    "main.596fa0fc.js.map": "/landlord/static/js/main.596fa0fc.js.map",
+    "453.0fff2ecc.chunk.js.map": "/landlord/static/js/453.0fff2ecc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9e15ba3.css",
+    "static/js/main.596fa0fc.js"
+  ]
+}
