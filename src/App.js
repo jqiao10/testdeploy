@@ -29,7 +29,7 @@ function App() {
       </header> */}
 
 <BrowserRouter basename='/testdeploy'>
-      <Routes>
+      <HashRouter>
       <Route path='/uploadlisting/title' element={<Title/>}></Route>
       <Route path='/uploadlisting/info' element={<Info/>}></Route>
       <Route path='/uploadlisting/feature' element={<Feature/>}></Route>
@@ -47,7 +47,7 @@ function App() {
    
 
     
-      </Routes>
+      </HashRouter>
       </BrowserRouter>
      
      <footer className='stickyFooter'> 
