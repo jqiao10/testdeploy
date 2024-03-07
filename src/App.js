@@ -1,5 +1,5 @@
 import './Clear.css';
-import { Routes, BrowserRouter, Route } from 'react-router-dom';
+import { Routes, BrowserRouter, Route, HashRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Title from './Pages/UplaodProcess/UploadTitle';
 import Info from './Pages/UplaodProcess/UploadInfo';
