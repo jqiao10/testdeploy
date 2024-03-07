@@ -28,7 +28,7 @@ function App() {
       <NavigationBar/>
       </header> */}
 
-<BrowserRouter basename='/landlord'>
+<BrowserRouter basename='/testdeploy'>
       <Routes>
       <Route path='/uploadlisting/title' element={<Title/>}></Route>
       <Route path='/uploadlisting/info' element={<Info/>}></Route>
