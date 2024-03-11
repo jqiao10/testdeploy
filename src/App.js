@@ -1,5 +1,6 @@
+//   "homepage": "https://jqiao.github.io/testdeploy/",
 import './Clear.css';
-import { Routes, BrowserRouter, Route, HashRouter } from 'react-router-dom';
+import { Routes, BrowserRouter, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Title from './Pages/UplaodProcess/UploadTitle';
 import Info from './Pages/UplaodProcess/UploadInfo';
@@ -28,8 +29,9 @@ function App() {
       <NavigationBar/>
       </header> */}
 
-<BrowserRouter basename='/testdeploy'>
-      <HashRouter>
+{/* basename='/testdeploy' */}
+<BrowserRouter>
+      <Routes>
       <Route path='/uploadlisting/title' element={<Title/>}></Route>
       <Route path='/uploadlisting/info' element={<Info/>}></Route>
       <Route path='/uploadlisting/feature' element={<Feature/>}></Route>
@@ -47,7 +49,7 @@ function App() {
    
 
     
-      </HashRouter>
+      </Routes>
       </BrowserRouter>
      
      <footer className='stickyFooter'> 
