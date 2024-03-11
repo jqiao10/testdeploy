@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/landlord/static/css/main.f9e15ba3.css",
-    "main.js": "/landlord/static/js/main.24b308ee.js",
-    "static/js/453.0fff2ecc.chunk.js": "/landlord/static/js/453.0fff2ecc.chunk.js",
-    "static/media/house1.jpeg": "/landlord/static/media/house1.9a35acc4f58655b6a45a.jpeg",
-    "index.html": "/landlord/index.html",
-    "main.f9e15ba3.css.map": "/landlord/static/css/main.f9e15ba3.css.map",
-    "main.24b308ee.js.map": "/landlord/static/js/main.24b308ee.js.map",
-    "453.0fff2ecc.chunk.js.map": "/landlord/static/js/453.0fff2ecc.chunk.js.map"
+    "main.css": "/static/css/main.f9e15ba3.css",
+    "main.js": "/static/js/main.e208baa4.js",
+    "static/js/453.0fff2ecc.chunk.js": "/static/js/453.0fff2ecc.chunk.js",
+    "static/media/house1.jpeg": "/static/media/house1.9a35acc4f58655b6a45a.jpeg",
+    "index.html": "/index.html",
+    "main.f9e15ba3.css.map": "/static/css/main.f9e15ba3.css.map",
+    "main.e208baa4.js.map": "/static/js/main.e208baa4.js.map",
+    "453.0fff2ecc.chunk.js.map": "/static/js/453.0fff2ecc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f9e15ba3.css",
-    "static/js/main.24b308ee.js"
+    "static/js/main.e208baa4.js"
   ]
 }
