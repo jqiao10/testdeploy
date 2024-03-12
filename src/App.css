@@ -10,51 +10,8 @@ body{
   background-color: var(--base);
 
 }
-.stickyFooter{
-  bottom:0;
-  position: sticky;
-  z-index: 100;
-}
-.stickyHeader{
-  top:0;
-  position:Sticky;
-  z-index: 100;
-}
 
-/* -----------------Navbar ----------------*/
-.bar{
-  background-color: var(--ezblue);
-  position: sticky;
-}
-.barcontent{
-  color: var(--header);
-  font-weight: bold;
-  font-size: large;
-}
-.bardetail{
-  margin-left: 5vw;
-}
 
-.justify-content-end{
-  margin-right: 5vw;
-}
-/* -----------------Main Navbar ----------------*/
-.searchBtn{
-  background-color: var(--ezyellow) !important;
-  color: var(--header) !important;
-  height: 50px;
-}
-.searchtext{
-  width: 20vw;
-  height: 50px;
-}
-.searchdate{
-  width:10vw;
-  height: 50px;
-}
-.search-bar{
-  display: inline;
-}
 /* -----------------Upload series ----------------*/
 .explain{
   text-align: center;
@@ -188,35 +145,3 @@ body{
   min-height: 70vh;
 }
 
-/* -----------------Footer----------------*/
-.footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-right: 3vw;
-  padding-left: 3vw;
-  padding-top: 5vh;
-  padding-bottom: 5vh;
-  background-color: var(--ezblue);
-  font-size: large;
-}
-
-.footer-section {
-  display: flex;
-  align-items: center;
-}
-
-.footer-section.company {
-  flex-grow: 1;
-  justify-content: center;
-}
-
-.footer-section a {
-  text-decoration: none;
-  margin: 0 10px; 
-  color: var(--base); 
-}
-
-.footer-section.company span {
-  font-weight: bold;
-}
