@@ -31,7 +31,7 @@ function UplaodAmentities(){
       />
             {/* BBQ Grill */}
             <CheckboxBtn
-        children="Hot Tub"
+        children="BBQ Grill"
         IconComponent={MdOutdoorGrill}
       />
             {/* Patio */}

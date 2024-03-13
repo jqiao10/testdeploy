@@ -24,7 +24,7 @@ function uplaodListing(){
       <Container fluid className="buttons">
     <Row className="justify-content-between mb-2">
       <Col xs="auto">
-        <NormalBtn href="/landlord">Back</NormalBtn>
+        <NormalBtn href="/">Back</NormalBtn>
       </Col>
       <Col xs="auto">
         <NormalBtn href="/uploadlisting/info">Next</NormalBtn>

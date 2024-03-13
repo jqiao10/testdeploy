@@ -61,7 +61,7 @@ function UploadFeature(){
 
             {/* Essentail Kitchen Applicances */}
             <CheckboxBtn
-        children="Essential Kitchen Applkicances"
+        children="Essential Kitchen Applicances"
         IconComponent={FaKitchenSet}
       />
             {/* Kitchen Utensils */}

@@ -17,7 +17,6 @@ const ClientRendering = ({ children }) => {
             </div>
         )
     }
-
     return (
         <>
             {children}
