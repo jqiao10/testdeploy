@@ -21,6 +21,7 @@ function LandlordPage(){
            {property.map((item, index) => (
             <div className="min-h-0 md:max-lg:min-h-full">
         <ListingCard
+          id = {item.id}
           key={index}
           title={item.title}
           city={item.address.city}

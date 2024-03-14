@@ -1,9 +1,17 @@
 import React,{useState, useEffect} from 'react';
-import { Card, ListGroup } from 'react-bootstrap';
+import { Card, ListGroup, Modal, Button} from 'react-bootstrap';
 import { RiDeleteBinLine, RiSettings2Fill } from "react-icons/ri";
 import '../app/global.css';
 
 function ListingCard({title, city, state, country, features, amenities, safety}) {
+    const [showModal, setShowModal] = useState(false);
+    const handleClose = () => setShowModal(false);
+    const handleShow = () => setShowModal(true);
+
+    const confirmDelete=()=>{
+        console.log();
+        setShowModal(false);
+    }
    
     return (
        
@@ -22,10 +30,21 @@ function ListingCard({title, city, state, country, features, amenities, safety})
                     <ListGroup.Item>Some Safety: {safety} ...</ListGroup.Item>
                 </ListGroup>
                 <Card.Body className="flex justify-between">
-                    <Card.Link href="/uploadlisting/title" className='text-blue-800'><RiSettings2Fill/></Card.Link>
-                    <Card.Link href="/properties" className='text-blue-800'><RiDeleteBinLine /></Card.Link>
+                    <Card.Link href="/uploadlisting/title" className='text-cyan-500'><RiSettings2Fill/></Card.Link>
+                    <Card.Link href="/" className='text-cyan-500' onClick={handleShow}><RiDeleteBinLine /></Card.Link>
                 </Card.Body>
             </Card>
+
+            <Modal show={showModal} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>Confirm Action</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>Are you sure you want to proceed with this action?</Modal.Body>
+        <Modal.Footer>
+          <button onClick={handleClose}>Cancel</button>
+          <button onClick={confirmDelete}>Confirm</button>
+        </Modal.Footer>
+      </Modal>
         </div>
     );
 }

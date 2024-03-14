@@ -1,10 +1,9 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
-
+import { Link } from 'react-router-dom';
 
 function NormalBtn ({ href, children }){
   return (
-    <Button className="landlordButton" size="lg" href={href}>{children}</Button>
+    <button className="rounded-full ring ring-cyan-500 bg-cyan-500 text-white text-xl hover:ring-cyan-800 px-5 py-3"><Link to={href}>{children}</Link></button>
     
   );
 };
