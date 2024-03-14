@@ -2,14 +2,10 @@ import { Container,Row, Col} from "react-bootstrap";
 import NormalBtn from "../../Components/NormalBtn";
 import NormalBox from "../../Components/NormalBox";
 import ChooseDate from "../../Components/ChooseDate";
-import NavigationBar from "../../Components/NavigationBar";
 
 function UploadPrice(){
     return(
       <div>
-      <header className='stickyHeader'>
-      <NavigationBar/>
-      </header>
       <div className="upload">
         <Container fluid className="uploadContainer">
         <h1 className="uploadQuestion">Please let us know the price</h1>

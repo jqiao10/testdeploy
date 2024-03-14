@@ -8,14 +8,11 @@ import { MdOutdoorGrill,MdOutlineFireplace, MdDinnerDining} from "react-icons/md
 import { FaWaterLadder } from "react-icons/fa6";
 import { GiPoolTableCorner } from "react-icons/gi";
 import { CgGym } from "react-icons/cg";
-import NavigationBar from "../../Components/NavigationBar";
+
 
 function UplaodAmentities(){
     return(
       <div>
-      <header className='stickyHeader'>
-      <NavigationBar/>
-      </header>
       <div className="upload">
         <Container fluid className="uploadContainer">
         <h1 className="uploadQuestion">Tell us some amentities you offered</h1>

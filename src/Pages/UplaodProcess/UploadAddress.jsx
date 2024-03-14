@@ -2,14 +2,11 @@ import { Container,Row, Col } from "react-bootstrap";
 import NormalBox from "../../Components/NormalBox";
 import NormalBtn from "../../Components/NormalBtn";
 import DescriptionBox from "../../Components/DescriptionBox";
-import NavigationBar from "../../Components/NavigationBar";
+
 
 function UploadAddress(){
 return(
   <div>
-  <header className='stickyHeader'>
-  <NavigationBar/>
-  </header>
   <div className="uplaod">
     <Container fluid className="uploadContainer">
         <h1 className="uploadQuestion">Please let us know the address</h1>

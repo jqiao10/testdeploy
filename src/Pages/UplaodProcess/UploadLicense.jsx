@@ -1,15 +1,11 @@
 import { Container,Row, Col} from "react-bootstrap";
 import NormalBtn from "../../Components/NormalBtn";
 import ImgBtn from "../../Components/ImgBtn";
-import NavigationBar from "../../Components/NavigationBar";
 
 
 function UploadLicense(){
     return(
       <div>
-      <header className='stickyHeader'>
-      <NavigationBar/>
-      </header>
       <div className="upload">
         <Container fluid className="uploadContainer">
     <h1 className="uploadQuestion">Please Upload property License/ Cetificiate</h1>

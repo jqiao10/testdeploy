@@ -1,32 +1,56 @@
-import React from 'react';
+import React,{useState} from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { FaUserCircle } from 'react-icons/fa';
 import { GiNightSleep } from 'react-icons/gi';
-import '../app/global.css';
+import { IoMdCloseCircle } from "react-icons/io";
+import { CgMenuGridR } from "react-icons/cg";
+
 
 function NavigationBar() {
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
+
   return (
     <div>
-      <Navbar className='bg-white shadow-md fixed top-0 left-0 right-0 z-30'>
-        <Container className='h-12 flex justify-between items-center px-10 '>
-          <Nav className='hidden md:block'>
-            <Navbar.Brand href='/'><GiNightSleep className='text-blue-600' size={30} /></Navbar.Brand>
-          </Nav>
-          <Nav className="flex gap-3 items-center">
-            <Nav.Link href='/UpcomingT' className='text-black font-medium'>Upcoming Tenant</Nav.Link>
-            <Nav.Link href='/CurrentT' className='text-black font-medium'>Current Tenant</Nav.Link>
-            <Nav.Link href='/PreviousT' className='text-black font-medium'>Previous Tenant</Nav.Link>
-          </Nav>
-          <Nav>
-            <NavDropdown title={<FaUserCircle size={30} />} className='text-black'>
-              <NavDropdown.Item href="/uploadlisting/title">New Listing</NavDropdown.Item>
-              <NavDropdown.Item href="/setting">Setting</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="/">Sign Out</NavDropdown.Item>
-            </NavDropdown>
-          </Nav>
-        </Container>
-      </Navbar>
+ <nav className="bg-white shadow-md">
+      <div className="max-w-6xl mx-auto px-4">
+        <div className="flex justify-between items-center">
+          <div className="flex space-x-7 items-center">
+              <a href="/" className="flex py-4 items-center">
+                <GiNightSleep size={30} className="h-8 w-8 mr-2"/>
+              </a>
+              </div>
+              
+          <div className="hidden md:flex items-center space-x-10">
+            <a href='/upcomingt' className="py-4 px-2">Upcoming Tenant</a>
+            <a href='/currentt' className="py-4 px-2">Current Tenant</a>
+            <a href='/previoust' className="py-4 px-2">Previous Tenant</a>
+          </div>
+          
+       
+
+          <div className='hidden md:flex items-center px-0'>
+          <a href='/uploading/title' className='py-4 px-10'> Add New Property</a>
+          <a href='/accountl' className='py-4 px-0'>My Account</a>
+        </div>
+          
+
+          <div className="md:hidden flex items-center">
+            <button className="outline-none mobile-menu-button" onClick={() => setIsNavExpanded(!isNavExpanded)}>
+              <CgMenuGridR className={`h-6 w-6 ${isNavExpanded ? 'hidden' : 'block'}`} />
+              <IoMdCloseCircle className={`h-6 w-6 ${isNavExpanded ? 'block' : 'hidden'}`} />
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div className={`md:hidden ${isNavExpanded ? 'block' : 'hidden'}`}>
+        <a href='/upcomingt' className="block py-2 px-4 text-sm">Upcoming Tenant</a>
+        <a href='/currentt' className="block py-2 px-4 text-sm">Current Tenant</a>
+        <a href='/previoust' className="block py-2 px-4 text-sm">Previous Tenant</a>
+        <a href='/uploading/title' className="block py-2 px-4 text-sm">Add New Property</a>
+        <a href='accountl' className="block py-2 px-4 text-sm"> My Account</a>
+      </div>
+    </nav>
     </div>
   );
 }

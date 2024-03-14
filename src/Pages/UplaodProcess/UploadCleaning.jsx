@@ -2,15 +2,11 @@ import React from "react";
 import NormalBtn from "../../Components/NormalBtn";
 import DescriptionBox from "../../Components/DescriptionBox";
 import { Container,Row, Col} from "react-bootstrap";
-import NavigationBar from "../../Components/NavigationBar";
 
 
 function UploadCleaning(){
 return(
   <div>
-  <header className='stickyHeader'>
-  <NavigationBar/>
-  </header>
     <div className="upload">
     <Container fluid className="uploadContainer">
     <h1 className="uploadQuestion">Please write a cleaning instruction</h1>

@@ -1,15 +1,11 @@
 import ImgBtn from "../../Components/ImgBtn";
 import { Container,Row, Col} from "react-bootstrap";
 import NormalBtn from "../../Components/NormalBtn";
-import NavigationBar from "../../Components/NavigationBar";
 
 
 function UploadImg(){
     return(
       <div>
-      <header className='stickyHeader'>
-      <NavigationBar/>
-      </header>
       <div className="upload">
         <Container fluid className="uploadContainer">
     <h1 className="uploadQuestion">Please Upload some Pictures of your property</h1>

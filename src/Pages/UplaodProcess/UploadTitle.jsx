@@ -1,16 +1,12 @@
 import React from "react";
 import {Form, Container, Row, Col} from 'react-bootstrap';
 import NormalBtn from "../../Components/NormalBtn";
-import NavigationBar from "../../Components/NavigationBar";
 
 
 function uplaodListing(){
 
     return(
       <div>
-      <header className='stickyHeader'>
-      <NavigationBar/>
-      </header>
         <div className="upload">
             <Container fluid className="uploadContainer">
             <h1 className="uploadQuestion">Give property A title</h1>

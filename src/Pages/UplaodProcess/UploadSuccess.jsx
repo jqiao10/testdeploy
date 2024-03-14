@@ -1,14 +1,10 @@
 import { Container, Col} from "react-bootstrap";
 import ConfettiBtn from '../../Components/ConfettiBtn';
-import NavigationBar from "../../Components/NavigationBar";
 
 
 function UploadSuccess(){
     return(
       <div>
-      <header className='stickyHeader'>
-      <NavigationBar/>
-      </header>
       <div className="upload">
         <Container fluid className="uploadContainer">
     <h1 className="uploadQuestion">Congratulations! </h1>

@@ -8,14 +8,10 @@ import { IoIosExit } from "react-icons/io";
 import { MdOutlineSecurity } from "react-icons/md";
 import { Container,Row, Col} from "react-bootstrap";
 import CheckboxOthers from "../../Components/CheckboxOthers";
-import NavigationBar from "../../Components/NavigationBar";
 
 function UploadSafety(){
     return(
       <div>
-      <header className='stickyHeader'>
-            <NavigationBar/>
-            </header>
         <div className="upload">
         <Container fluid className="uploadContainer">
         <h1 className="uploadQuestion">Tell us what Safety feature you offered</h1>

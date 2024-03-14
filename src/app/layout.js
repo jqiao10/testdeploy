@@ -6,7 +6,7 @@ import MainNavigation from '../Components/MainNavigation';
 import NavigationBar from '../Components/NavigationBar';
 import { FaAlignJustify } from "react-icons/fa";
 import { useSidebar } from '../hooks/useSidebar'; 
-import '../app/global.css';
+
 
 export default function RootLayout({ children }) {
   const sidebarModel = useSidebar();

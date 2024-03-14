@@ -9,15 +9,11 @@ import { PiTelevisionBold } from "react-icons/pi";
 import CheckboxBtn from "../../Components/CheckboxBtn";
 import CheckboxOthers from "../../Components/CheckboxOthers";
 import { MdPaid } from "react-icons/md";
-import NavigationBar from "../../Components/NavigationBar";
 
 
 function UploadFeature(){
     return(
       <div>
-      <header className='stickyHeader'>
-      <NavigationBar/>
-      </header>
         <div className="upload">
         <Container fluid className="uploadContainer">
         <h1 className="uploadQuestion"> Tell us some features you offered</h1>

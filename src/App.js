@@ -16,7 +16,8 @@ import License from './Pages/UplaodProcess/UploadLicense';
 import Success from './Pages/UplaodProcess/UploadSuccess';
 import Landlord from './Pages/LandlordSection/LandlordPage';
 import Footer from './Components/Footer';
-import './App.css';
+import NavigationBar from './Components/NavigationBar';
+// import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -24,10 +25,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-       {/* change use state when there is acutal login
-      <header className='stickyHeader'>
+       {/* change use state when there is acutal login */}
+      <header>
       <NavigationBar/>
-      </header> */}
+      </header>
 
 {/* basename='/testdeploy' */}
 <BrowserRouter>
