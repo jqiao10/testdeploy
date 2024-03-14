@@ -8,8 +8,8 @@ function uplaodListing(){
     return(
 
       <div>
-      <div className="mt-10 pt-10">
-      <h1 className="text-2xl text-center mt-10" >Give property A title</h1>
+      <div className="mt-5 pt-5">
+      <h1 className="text-2xl text-center mt-5 mb-5" >Give property A title</h1>
       <p className="text-center">Please give an attractively summarize the property's main features and appeal to potential renters, making it stand out among numerous listings.</p>
       </div>
       <br/>

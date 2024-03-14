@@ -12,13 +12,13 @@ function CounterBtn({children}) {
   return (
     <div>
   
-    <div className="grid grid-cols-2 text-center space-x-1">
-      <div className='ml-20 pl-20'>
+    <div className="grid grid-cols-2 text-center">
+      <div>
         <h4 className="text-xl">{children}</h4> 
       </div>
-      <div className='mr-20 pr-20'>
+      <div>
         <button onClick={decrement} className="rounded-lg bg-cyan-500 text-white text-xl hover:ring-cyan-800 px-3 py-2">  - </button>
-        <span className="mx-2 text-xl" >{count}</span> 
+        <span className="mx-5 text-xl" >{count}</span> 
         <button onClick={increment} className="rounded-lg bg-cyan-500 text-white text-xl hover:ring-cyan-800 px-3 py-2"> + </button>
       </div>
     </div>

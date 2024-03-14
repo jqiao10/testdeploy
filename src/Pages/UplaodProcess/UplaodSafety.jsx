@@ -12,14 +12,14 @@ import CheckboxOthers from "../../Components/CheckboxOthers";
 function UploadSafety(){
     return(
       <div>
-        <div className="upload">
-        <Container fluid className="uploadContainer">
-        <h1 className="uploadQuestion">Tell us what Safety feature you offered</h1>
-        <p className="explain">Tell your potential tenant what safety feature you have for this property</p>
+      <div className="mt-1 pt-1">
+      <h1 className="text-2xl text-center mt-5" >Tell us what Safety feature you offered</h1>
+      <p className="text-center">Tell your potential tenant what safety feature you have for this property</p>
         <br/>
 
 
-        <div className="checkgrid">
+        <div className="flex justify-center">
+        <div  class="grid grid-cols-3 gap-5 auto-cols-max mt-5">
            {/* Smoke Alarm */}
            <CheckboxBtn
         children="Smoke Alarm"
@@ -63,22 +63,16 @@ function UploadSafety(){
       {/* others */}
       <CheckboxOthers children="Others"/>
         </div>
+        </div>
        
 
         <br />
-  <Container fluid className="buttons">
-<Row className="justify-content-between mb-2">
-  <Col xs="auto">
-    <NormalBtn href="/uploadlisting/amentities">Back</NormalBtn>
-  </Col>
-  <Col xs="auto">
-    <NormalBtn href="/uploadlisting/description">Next</NormalBtn>
-  </Col>
-</Row>
-</Container>
-</Container>
+    <div className="text-center mt-5 flex justify-center space-x-20 gap-20">
+      <NormalBtn href="/uploadlisting/amentities" className="pr-10">Back</NormalBtn>
+      <NormalBtn href="/uploadlisting/description" className='ml-10'>Next</NormalBtn>
+      </div>
 </div>
 </div>
     )
 }
-export default UploadSafety
+export default UploadSafety;
