@@ -1,5 +1,5 @@
-import React,{useState, useEffect} from 'react';
-import { Card, ListGroup, Modal, Button} from 'react-bootstrap';
+import React,{useState} from 'react';
+import { Card, ListGroup, Modal} from 'react-bootstrap';
 import { RiDeleteBinLine, RiSettings2Fill } from "react-icons/ri";
 import '../app/global.css';
 
