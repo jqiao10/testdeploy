@@ -81,7 +81,7 @@ const Footer = () => {
     const ItemContainer = ({ children, onClick }) => {
         return (
             <div
-                className='hover:bg-slate-200 p-2 rounded-lg cursor-pointer'  onClick={onClick} >
+                className='p-2 rounded-lg cursor-pointer text-white'  onClick={onClick} >
                 {children}
             </div>
         );
@@ -89,7 +89,7 @@ const Footer = () => {
 
     let bodyContent = (
         <div className='flex flex-col'>
-            <div className='bottom-0 left-0 right-0 z-20 px-6 py-1 bg-white border-t-2 shadow-inner md:flex md:flex-row md:justify-between border-neutral-200'>
+            <div className='bottom-0 left-0 right-0 z-20 px-6 py-1 bg-cyan-500 shadow-md border-t-2 shadow-inner md:flex md:flex-row md:justify-between border-neutral-200'>
                 {/* Left Side */}
                 <SectionContainer>
                     {leftSideItems.map((item) => (
@@ -100,14 +100,14 @@ const Footer = () => {
                 </SectionContainer>
 
                 <SectionContainer>
-                <div className='p-2 rounded-lg'>© 2024 EZrest, Inc</div>
+                <div className='p-2 rounded-lg text-white'>© 2024 EZrest, Inc</div>
             </SectionContainer>
                 {/* Right Side */}
                 <SectionContainer className="items-end">
                     <SectionContainer className="flex flex-col md:flex-row md:items-center justify-between w-full">
   
                         {/* Social Icons */}
-                        <div className="flex justify-center md:justify-end w-full " key="social-icons">
+                        <div className="flex justify-center md:justify-end w-full text-white" key="social-icons">
                             {rightSideItems
                             .find(item => item.name === 'icons')
                             ?.icons.map((icon) => (
@@ -121,7 +121,7 @@ const Footer = () => {
                             ))}
                         </div>
                     
-                        <div className="flex justify-center md:justify-end w-full " key="contact-us">
+                        <div className="flex justify-center md:justify-end w-full text-white" key="contact-us">
                             <ItemContainer onClick={() => console.log('Contact Us clicked')}>
                                 {rightSideItems.find(item => item.name === 'item')?.content}
                             </ItemContainer>

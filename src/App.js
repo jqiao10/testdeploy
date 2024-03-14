@@ -26,12 +26,13 @@ function App() {
   return (
     <div className="App">
        {/* change use state when there is acutal login */}
-      <header>
+      <header className='sticky top-0 z-10'>
       <NavigationBar/>
       </header>
-
+<main className='flex-glow'>
 {/* basename='/testdeploy' */}
 <BrowserRouter>
+<div className="min-h-[90vh]">
       <Routes>
       <Route path='/uploadlisting/title' element={<Title/>}></Route>
       <Route path='/uploadlisting/info' element={<Info/>}></Route>
@@ -51,9 +52,12 @@ function App() {
 
     
       </Routes>
+      </div>
+
       </BrowserRouter>
+      </main>
      
-     <footer className='stickyFooter'> 
+     <footer className='fix bottom-0'> 
       <Footer/>
      </footer>
     </div>
