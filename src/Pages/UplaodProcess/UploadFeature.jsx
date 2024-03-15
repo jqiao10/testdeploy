@@ -18,7 +18,7 @@ function UploadFeature(){
         
         <div className="mt-1 pt-1">
       <h1 className="text-2xl text-center mt-5" >Tell us some features you offered</h1>
-      <p className="text-center">Tell your potential tenant what features to expected from this property</p>
+      <p className="text-center mr-5 ml-5">Tell your potential tenant what features to expected from this property</p>
         <br/>
 
         <div className="flex justify-center">

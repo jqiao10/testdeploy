@@ -1,5 +1,4 @@
 import React from "react";
-import {Container, Row, Col} from 'react-bootstrap';
 import CounterBtn from '../../Components/CounterBtn';
 import NormalBtn from '../../Components/NormalBtn';
 
@@ -10,7 +9,7 @@ function uplaodListing(){
       <div className="upload">
       <div className="mt-1 pt-1">
       <h1  className="text-2xl text-center mt-5 mb-5">Give us some basic information about your property</h1>
-      <p className="text-center">Ensure potential tenants have a clear understanding of what is being offered, it helps match the property with the right renters, facilitates a smoother rental process, and enhances the overall user experience by setting accurate expectations.</p>
+      <p className="text-center mr-10 ml-10">Ensure potential tenants have a clear understanding of what is being offered, it helps match the property with the right renters, facilitates a smoother rental process, and enhances the overall user experience by setting accurate expectations.</p>
       <br/>
       {/* Living room */}
       <div className="grid justify-center ">

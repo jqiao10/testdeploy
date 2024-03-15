@@ -1,22 +1,21 @@
-import { Container, Col} from "react-bootstrap";
+import React from 'react';
 import ConfettiBtn from '../../Components/ConfettiBtn';
 
 
 function UploadSuccess(){
     return(
       <div>
-      <div className="upload">
-        <Container fluid className="uploadContainer">
-    <h1 className="uploadQuestion">Congratulations! </h1>
-    <p className="explain">We will let you know after verification </p>
+    <div className="mt-5 pt-5">
+      <h1 className="text-2xl text-center mt-1 mb-5"> Congratulations! </h1>
+    <p className="text-center mr-5 ml-5">We will let you know after verification </p>
     <br/>
-    </Container>
-  <Container>
 
-  <Col className="center">
+
+
+      <div className="text-center mt-5 flex justify-center space-x-20">
     <ConfettiBtn href="/">Done</ConfettiBtn>
-  </Col>
-    </Container>
+    </div>
+
     </div>
     </div>
         

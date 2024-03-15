@@ -13,8 +13,8 @@ function UploadSafety(){
     return(
       <div>
       <div className="mt-1 pt-1">
-      <h1 className="text-2xl text-center mt-5" >Tell us what Safety feature you offered</h1>
-      <p className="text-center">Tell your potential tenant what safety feature you have for this property</p>
+      <h1 className="text-2xl text-center mt-5">Tell us what Safety feature you offered</h1>
+      <p className="text-center mr-10 ml-10">Tell your potential tenant what safety feature you have for this property</p>
         <br/>
 
 

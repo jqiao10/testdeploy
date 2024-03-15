@@ -14,7 +14,7 @@ function UplaodAmentities(){
       <div>
      <div className="mt-1 pt-1">
       <h1 className="text-2xl text-center mt-5" >Tell us some amentities you offered</h1>
-      <p className="text-center">Tell your potential tenant what anmentities to expected from this property</p>
+      <p className="text-center mr-5 ml-5">Tell your potential tenant what anmentities to expected from this property</p>
         <br/>
 
 

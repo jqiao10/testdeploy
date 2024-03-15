@@ -6,12 +6,11 @@ import ChooseDate from "../../Components/ChooseDate";
 function UploadPrice(){
     return(
       <div>
-      <div className="upload">
-        <Container fluid className="uploadContainer">
-        <h1 className="uploadQuestion">Please let us know the price</h1>
-        <p className="explain">Show your potential tanent price, we recommand lower price for regular weekday and slighly higher for holiday and weekends</p>
+       <div className="mt-5 pt-5">
+      <h1 className="text-2xl text-center mt-1 mb-5" >Please let us know the price</h1>
+      <p className="text-center mr-5 ml-5 mb-5">Show your potential tanent price, we recommand lower price for regular weekday and slighly higher for holiday and weekends</p>
         <br/>
-        <div>
+        <div class="flex flex-col items-center">
             <NormalBox children="Weekday"/>
             <br/>
             <NormalBox children="Weekend/Holiday"/>
@@ -22,17 +21,12 @@ function UploadPrice(){
 
         </div>
         <br/>
-    <Container fluid className="buttons">
-<Row className="justify-content-between mb-2">
-  <Col xs="auto">
-    <NormalBtn href="/uploadlisting/address">Back</NormalBtn>
-  </Col>
-  <Col xs="auto">
-    <NormalBtn href="/uploadlisting/license">Next</NormalBtn>
-  </Col>
-</Row>
-</Container>
-        </Container>
+
+    <div className="text-center mt-5 flex justify-center space-x-20 gap-20">
+      <NormalBtn href="/uploadlisting/address" className="pr-10">Back</NormalBtn>
+      <NormalBtn href="/uploadlisting/license" className='ml-10'>Next</NormalBtn>
+      </div>
+
         </div>
         </div>
     )

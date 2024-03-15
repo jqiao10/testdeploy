@@ -16,9 +16,9 @@ function DescriptionBox () {
         value={text}
         onChange={handleTextChange}
         placeholder="This property ... "
-        className='textboxlarge'
+        className='w-5/6 min-w-32 h-[40vh] border-1 border-cyan-500'
       />
-      <p className='wordcounter'>Word Count: {wordCount}</p>
+      <p className='text-cyan-500'>Word Count: {wordCount}</p>
     </div>
   );
 };
