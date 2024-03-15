@@ -22,18 +22,19 @@ function LandlordPage(){
       <ListingCard
       id = {item.id}
       key={index}
+      propertyImg={item.propertyImg[0]}
       title={item.title}
       city={item.address.city}
       state = {item.address.state}
       country = {item.address.country}
       features = {item.features.slice(0,2).map(a=>(
-      <p className="sameline">{a},</p>
+      <p className="inline">{a} and </p>
       ))}
       amenities = {item.amenities.slice(0,2).map(a=>(
-      <p className="sameline">{a},</p>
+      <p className="inline">{a} and</p>
       ))}
       safety = {item.safety.slice(0,2).map(a=>(
-      <p className="sameline">{a},</p>
+      <p className="inline">{a} and </p>
       ))}
       />
       </div>

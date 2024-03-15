@@ -1,9 +1,8 @@
-import React,{useState} from 'react';
-import { Card, ListGroup, Modal} from 'react-bootstrap';
+import React,{useState, useEffect} from 'react';
 import { RiDeleteBinLine, RiSettings2Fill } from "react-icons/ri";
 import '../app/global.css';
 
-function ListingCard({title, city, state, country, features, amenities, safety}) {
+function ListingCard({propertyImg, title, city, state, country, features, amenities, safety}) {
     const [showModal, setShowModal] = useState(false);
     const handleClose = () => setShowModal(false);
     const handleShow = () => setShowModal(true);
@@ -15,37 +14,31 @@ function ListingCard({title, city, state, country, features, amenities, safety})
    
     return (
        
-        <div> 
-            <Card>
-                <Card.Img variant="top" src={require(`../imgs/house1.jpeg`)}/>
-                <Card.Body>
-                    <Card.Title>{title}</Card.Title>
-                    <Card.Text>
-                        Address: {city},{state},{country}
-                    </Card.Text>
-                </Card.Body>
-                <ListGroup className="list-group-flush">
-                    <ListGroup.Item>Some features: {features}...</ListGroup.Item>
-                    <ListGroup.Item>Some amenities: {amenities} ...</ListGroup.Item>
-                    <ListGroup.Item>Some Safety: {safety} ...</ListGroup.Item>
-                </ListGroup>
-                <Card.Body className="flex justify-between">
-                    <Card.Link href="/uploadlisting/title" className='text-cyan-500'><RiSettings2Fill/></Card.Link>
-                    <Card.Link href="/" className='text-cyan-500' onClick={handleShow}><RiDeleteBinLine /></Card.Link>
-                </Card.Body>
-            </Card>
-
-            <Modal show={showModal} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title>Confirm Action</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>Are you sure you want to proceed with this action?</Modal.Body>
-        <Modal.Footer>
-          <button onClick={handleClose}>Cancel</button>
-          <button onClick={confirmDelete}>Confirm</button>
-        </Modal.Footer>
-      </Modal>
+        <div class="max-w-sm rounded overflow-hidden shadow-lg"> 
+        <img src={propertyImg} alt="Property" class="w-full"/>
+    
+        <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">{title}</div>
+            <p class="text-gray-700 text-base">
+                Address: {city}, {state}, {country}
+            </p>
         </div>
+    
+        <div class="px-6 py-4">
+            <p>Some features: {features}...</p>
+            <p>Some amenities: {amenities}...</p>
+            <p>Some Safety: {safety}...</p>
+        </div>
+    
+        <div class="px-6 pt-4 pb-2 flex justify-between">
+            <div className="text-cyan-500 cursor-pointer hover:text-cyan-600 transition duration-300 ease-in-out" onClick={handleShow}>
+                <RiSettings2Fill size="1.5em"/>
+            </div>
+            <div className="text-cyan-500 cursor-pointer hover:text-cyan-600 transition duration-300 ease-in-out" onClick={handleShow}>
+                <RiDeleteBinLine size="1.5em"/>
+            </div>
+        </div>
+    </div>
     );
 }
 
