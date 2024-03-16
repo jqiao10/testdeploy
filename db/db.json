@@ -1,7 +1,7 @@
 {
 "property": [
       {
-        "id": 1,
+        "pid": 1,
         "title":"Somerset Cottage at West Avenue Cider House",
         "basicInformation":{
             "livingroom": 2,
@@ -32,7 +32,7 @@
         "propertyLicense": "https://i.pinimg.com/736x/b1/46/a2/b146a227f1b23aaa9eceb5a7c421aec5.jpg"
       },
       {
-        "id": 2,
+        "pid": 2,
         "title":"Rock 'n' House - Unique Modern Escape with Views",
         "basicInformation":{
             "livingroom": 2,
@@ -63,7 +63,7 @@
         "propertyLicense": "https://i.pinimg.com/736x/b1/46/a2/b146a227f1b23aaa9eceb5a7c421aec5.jpg"
       },
       {
-        "id": 3,
+        "pid": 3,
         "title":"Roxbury Dome House 4BR w/ Mtn Views & Fire Pit",
         "basicInformation":{
             "livingroom": 1,
@@ -94,7 +94,7 @@
         "propertyLicense": "https://i.pinimg.com/736x/b1/46/a2/b146a227f1b23aaa9eceb5a7c421aec5.jpg"
       },
       {
-        "id": 4,
+        "pid": 4,
         "title":"Artsy Glamping experience",
         "basicInformation":{
             "livingroom": 0,
@@ -125,7 +125,7 @@
         "propertyLicense": "https://i.pinimg.com/736x/b1/46/a2/b146a227f1b23aaa9eceb5a7c421aec5.jpg"
       },
       {
-        "id": 5,
+        "pid": 5,
         "title":"Small Space - Big Memories",
         "basicInformation":{
             "livingroom": 1,
@@ -156,7 +156,7 @@
         "propertyLicense": "https://i.pinimg.com/736x/b1/46/a2/b146a227f1b23aaa9eceb5a7c421aec5.jpg"
       },
       {
-        "id": 6,
+        "pid": 6,
         "title":"Cozy private Studio Flat, 21 min to downtown by GO",
         "basicInformation":{
             "livingroom": 0,
@@ -187,7 +187,7 @@
         "propertyLicense": "https://i.pinimg.com/736x/b1/46/a2/b146a227f1b23aaa9eceb5a7c421aec5.jpg"
       },
       {
-        "id": 7,
+        "pid": 7,
         "title":"4 Bed Beach House with Pool, Sauna & Hot Tub",
         "basicInformation":{
             "livingroom": 2,
@@ -218,7 +218,7 @@
         "propertyLicense": "https://i.pinimg.com/736x/b1/46/a2/b146a227f1b23aaa9eceb5a7c421aec5.jpg"
       },
       {
-        "id": 8,
+        "pid": 8,
         "title":"The Castle at Peck's Beach South",
         "basicInformation":{
             "livingroom": 2,
@@ -249,7 +249,7 @@
         "propertyLicense": "https://i.pinimg.com/736x/b1/46/a2/b146a227f1b23aaa9eceb5a7c421aec5.jpg"
       },
       {
-        "id": 9,
+        "pid": 9,
         "title":"Luxury stay in Whitehouse, Westmoreland,",
         "basicInformation":{
             "livingroom": 2,
@@ -280,7 +280,7 @@
         "propertyLicense": "https://i.pinimg.com/736x/b1/46/a2/b146a227f1b23aaa9eceb5a7c421aec5.jpg"
       },
       {
-        "id": 10,
+        "pid": 10,
         "title":"Glass cottage with Hot tub Blár",
         "basicInformation":{
             "livingroom": 0,
@@ -310,6 +310,68 @@
         "endDate":"2027-09-02",
         "propertyLicense": "https://i.pinimg.com/736x/b1/46/a2/b146a227f1b23aaa9eceb5a7c421aec5.jpg"
       }
-      
+    ],
+    "booking": [
+      {
+        "bid":1,
+        "startDate": "2022-12-22",
+        "endDate": "2022-12-30",
+        "houseid":10,
+        "guest_firstname":"Elle",
+        "guest_lastname": "Kelly",
+        "guest_email": "ellekelly@example.com",
+        "total_price":5678.90
+      },
+      {
+        "bid":2,
+        "startDate": "2023-10-22",
+        "endDate": "2023-10-30",
+        "houseid":9,
+        "guest_firstname":"Iris",
+        "guest_lastname": "Wang",
+        "guest_email": "iriswang@example.com",
+        "total_price":35890.90
+      },
+      {
+        "bid":3,
+        "startDate": "2024-3-15",
+        "endDate": "2024-4-20",
+        "houseid":2,
+        "guest_firstname":"Abdollah",
+        "guest_lastname": "Paphnoutios",
+        "guest_email": "APaphnoutios@example.com",
+        "total_price":53990.90
+      },
+      {
+        "bid":4,
+        "startDate": "2024-3-17",
+        "endDate": "2024-4-20",
+        "houseid":4,
+        "guest_firstname":"Adalet",
+        "guest_lastname": "Ramesh",
+        "guest_email": "ARamesh@example.com",
+        "total_price":42990.90
+      },
+      {
+        "bid":5,
+        "startDate": "2023-11-17",
+        "endDate": "2023-11-20",
+        "houseid":5,
+        "guest_firstname":"Jonas",
+        "guest_lastname": "Athaliah",
+        "guest_email": "JonasAthaliah@example.com",
+        "total_price":5940.23
+      },
+      {
+        "bid":6,
+        "startDate": "2025-11-17",
+        "endDate": "2025-11-20",
+        "houseid":5,
+        "guest_firstname":"Aleksandra",
+        "guest_lastname": "Waldo",
+        "guest_email": "Aleksandra@example.com",
+        "total_price":4940.23
+      }
+
     ]
   }

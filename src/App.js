@@ -18,8 +18,11 @@ import Landlord from './Pages/LandlordSection/LandlordPage';
 import Footer from './Components/Footer';
 import NavigationBar from './Components/NavigationBar';
 // import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
+import Previous from './Pages/LandlordSection/Previous';
+import Upcoming from './Pages/LandlordSection/Upcoming';
+import Current from './Pages/LandlordSection/Current';
 
 
 function App() {
@@ -46,6 +49,10 @@ function App() {
       <Route path='/uploadlisting/price' element={<Price/>}></Route>
       <Route path='/uploadlisting/license' element={<License/>}></Route>
       <Route path='/uploadlisting/finish' element={<Success/>}></Route>
+      <Route path='/previoust' element={<Previous/>}></Route>
+      <Route path='/upcomingt' element={<Upcoming/>}></Route>
+      <Route path='/currentt' element={<Current/>}></Route>
+
       <Route path='/' element={<Landlord/>}></Route>
 
    

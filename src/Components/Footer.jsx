@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import useFooterModal from '../hooks/useFooterModal';
 import { FaTwitter, FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
-import { MdCancel } from "react-icons/md";
 import '../app/global.css';
 
 const leftSideItems = [
@@ -38,9 +37,6 @@ const Footer = () => {
         };
 
 
-    
-    
-  
     let slidingWindowClasses = showModal ? 'translate-y-0' : 'translate-y-full';
 
     // For desktop view

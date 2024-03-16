@@ -9,13 +9,13 @@ function LandlordPage(){
 
     //local
     useEffect(() => {
-        fetch('http://localhost:3001/property'||'api/property')
+        fetch('http://localhost:3001/property')
         .then(response => response.json())
         .then(data => setProperty(data))
         .catch(error => console.error('Error:', error));
     }, []);
     return(
-      <div>
+      <div className="items-center ml-20 mr-10">
       <div className="grid  grid-col-1 md:grid-cols-3 gap-5">
       {property.map((item, index) => (
       <div className="min-h-0 md:max-lg:min-h-full">
