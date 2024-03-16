@@ -25,9 +25,9 @@ function ListingCard({propertyImg, title, city, state, country, features, amenit
         </div>
     
         <div className="px-6 py-4">
-            <p>Features: {features}...</p>
-            <p>Amenities: {amenities}...</p>
-            <p>Safety: {safety}...</p>
+            <p>Features: {features}</p>
+            <p>Amenities: {amenities}</p>
+            <p>Safety: {safety}</p>
         </div>
     
         <div className="px-6 pt-4 pb-2 flex justify-between">

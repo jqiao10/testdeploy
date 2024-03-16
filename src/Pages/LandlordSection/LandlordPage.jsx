@@ -1,4 +1,5 @@
 import React,{useState,useEffect} from "react";
+import {iconMap} from '../../info/icons';
 
 
 import ListingCard from "../../Components/ListingCard";
@@ -14,12 +15,13 @@ function LandlordPage(){
         .then(data => setProperty(data))
         .catch(error => console.error('Error:', error));
     }, []);
+    
     return(
       <div className="items-center ml-20 mr-10">
       <div className="grid  grid-col-1 md:grid-cols-3 gap-5">
       {property.map((item, index) => (
       <div className="min-h-0 md:max-lg:min-h-full">
-      <ListingCard
+      <ListingCard 
       id = {item.id}
       key={index}
       propertyImg={item.propertyImg[0]}
@@ -27,14 +29,14 @@ function LandlordPage(){
       city={item.address.city}
       state = {item.address.state}
       country = {item.address.country}
-      features = {item.features.slice(0,2).map(a=>(
-      <p className="inline">{a} and </p>
+      features = {item.features.map(a=>(
+      <p className="inline-flex items-center">{iconMap.find(i=>i.name === a )?.icon} &nbsp; &nbsp;</p>
       ))}
-      amenities = {item.amenities.slice(0,2).map(a=>(
-      <p className="inline">{a} and</p>
+      amenities = {item.amenities.map(a=>(
+      <p className="inline-flex items-center">{iconMap.find(i=>i.name === a )?.icon} &nbsp; &nbsp;</p>
       ))}
-      safety = {item.safety.slice(0,2).map(a=>(
-      <p className="inline">{a} and </p>
+      safety = {item.safety.map(a=>(
+      <p className="inline-flex items-center">{iconMap.find(i=>i.name === a )?.icon} &nbsp; &nbsp;</p>
       ))}
       />
       </div>

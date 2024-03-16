@@ -1,4 +1,5 @@
-import { MdOutlineCoffeeMaker, MdPaid, MdLocalLaundryService} from "react-icons/md";
+import { MdOutlineCoffeeMaker, MdLocalLaundryService} from "react-icons/md";
+import { MdOutlinePaid } from "react-icons/md";
 import { GiHotSurface,GiHanger,GiDesk} from "react-icons/gi";
 import { BiSolidFridge, BiSolidBlanket} from "react-icons/bi";
 import { FaWifi,FaParking } from "react-icons/fa";
@@ -15,7 +16,7 @@ import { Tb24Hours,TbLadder } from "react-icons/tb";
 import { FaFirstAid, FaFireExtinguisher} from "react-icons/fa";
 import { IoIosExit } from "react-icons/io";
 import { MdOutlineSecurity } from "react-icons/md";
-export const iconsMap = [
+export const iconMap = [
     {
         id: 1,
         name:"Wifi",
@@ -44,7 +45,7 @@ export const iconsMap = [
     {
         id:6,
         name:"Paid Parking",
-        icon:<MdPaid/>
+        icon:<MdOutlinePaid/>
     },
     {
         id:7,

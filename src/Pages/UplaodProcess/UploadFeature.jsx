@@ -2,7 +2,7 @@ import React from "react";
 import NormalBtn from '../../Components/NormalBtn';
 import CheckboxBtn from "../../Components/CheckboxBtn";
 import CheckboxOthers from "../../Components/CheckboxOthers";
-import { MdOutlineCoffeeMaker, MdPaid, MdLocalLaundryService} from "react-icons/md";
+import { MdOutlineCoffeeMaker,MdOutlinePaid, MdLocalLaundryService} from "react-icons/md";
 import { GiHotSurface,GiHanger,GiDesk} from "react-icons/gi";
 import { BiSolidFridge, BiSolidBlanket} from "react-icons/bi";
 import { FaWifi,FaParking } from "react-icons/fa";
@@ -54,7 +54,7 @@ function UploadFeature(){
             {/* Paid Parking */}
             <CheckboxBtn
         children="Paid Parking"
-        IconComponent={MdPaid}
+        IconComponent={MdOutlinePaid}
       />
 
       {/* coffee maker */}
