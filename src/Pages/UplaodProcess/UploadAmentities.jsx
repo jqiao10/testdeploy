@@ -38,13 +38,13 @@ function UplaodAmentities(){
 
             {/* Outdoor/ Backyard Dinning area */}
             <CheckboxBtn
-        children="Outdoor/ Backyard Dinning Area"
+        children="Outdoor Dinning Area"
         IconComponent={MdDinnerDining}
       />
 
             {/* Lake access */}
             <CheckboxBtn
-        children="lake Access"
+        children="Lake Access"
         IconComponent={FaWater}
       />
 

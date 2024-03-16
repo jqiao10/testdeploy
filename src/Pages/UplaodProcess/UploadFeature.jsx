@@ -65,7 +65,7 @@ function UploadFeature(){
 
       {/* stove */}
       <CheckboxBtn
-        children="Cooking Top"
+        children="Stove"
         IconComponent={GiHotSurface}
         />
 
@@ -105,7 +105,7 @@ function UploadFeature(){
 
       {/* WorkSpace */}
       <CheckboxBtn
-        children="Work Space"
+        children="Workspace"
         IconComponent={GiDesk}
       />
       

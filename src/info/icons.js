@@ -54,7 +54,7 @@ export const iconMap = [
     },
     {
         id:8,
-        name:"Cooking Top",
+        name:"Stove",
         icon:<GiHotSurface/>
     },
     {
@@ -89,7 +89,7 @@ export const iconMap = [
     },
     {
         id:15,
-        name:"Work Space",
+        name:"Workspace",
         icon:<GiDesk/>
     },
     {
@@ -109,12 +109,12 @@ export const iconMap = [
     },
     {
         id:18,
-        name:"Outdoor/ Backyard Dinning Area",
+        name:"Outdoor Dinning Area",
         icon:<MdDinnerDining/>
     },
     {
         id:19,
-        name:"lake Access",
+        name:"Lake Access",
         icon:<FaWater/>
     },
     {
