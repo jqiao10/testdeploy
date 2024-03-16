@@ -1,14 +1,14 @@
 import React from "react";
 import NormalBtn from '../../Components/NormalBtn';
-import { FaWifi,FaParking } from "react-icons/fa";
-import { FaHotjar,FaKitchenSet } from "react-icons/fa6";
-import { TbAirConditioning,TbToolsKitchen3 } from "react-icons/tb";
-import { PiTelevisionBold } from "react-icons/pi";
 import CheckboxBtn from "../../Components/CheckboxBtn";
 import CheckboxOthers from "../../Components/CheckboxOthers";
 import { MdOutlineCoffeeMaker, MdPaid, MdLocalLaundryService} from "react-icons/md";
 import { GiHotSurface,GiHanger,GiDesk} from "react-icons/gi";
 import { BiSolidFridge, BiSolidBlanket} from "react-icons/bi";
+import { FaWifi,FaParking } from "react-icons/fa";
+import { FaHotjar,FaKitchenSet } from "react-icons/fa6";
+import { TbAirConditioning,TbToolsKitchen3 } from "react-icons/tb";
+import { PiTelevisionBold } from "react-icons/pi";
 
 
 

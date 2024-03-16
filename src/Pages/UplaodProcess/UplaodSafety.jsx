@@ -6,7 +6,6 @@ import { Tb24Hours,TbLadder } from "react-icons/tb";
 import { FaFirstAid, FaFireExtinguisher} from "react-icons/fa";
 import { IoIosExit } from "react-icons/io";
 import { MdOutlineSecurity } from "react-icons/md";
-import { Container,Row, Col} from "react-bootstrap";
 import CheckboxOthers from "../../Components/CheckboxOthers";
 
 function UploadSafety(){
