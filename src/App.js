@@ -19,10 +19,10 @@ import Footer from './Components/Footer';
 import NavigationBar from './Components/NavigationBar';
 // import './App.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
-
 import Previous from './Pages/LandlordSection/Previous';
 import Upcoming from './Pages/LandlordSection/Upcoming';
 import Current from './Pages/LandlordSection/Current';
+import PropertyPreview from './Pages/LandlordSection/PropertyPreview';
 
 
 function App() {
@@ -52,6 +52,7 @@ function App() {
       <Route path='/previoust' element={<Previous/>}></Route>
       <Route path='/upcomingt' element={<Upcoming/>}></Route>
       <Route path='/currentt' element={<Current/>}></Route>
+      <Route path='/previewproperty/:id' element={<PropertyPreview/>}></Route>
 
       <Route path='/' element={<Landlord/>}></Route>
 

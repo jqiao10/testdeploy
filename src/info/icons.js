@@ -134,12 +134,12 @@ export const iconMap = [
     },
     {
         id:23,
-        name:"Firepalce",
+        name:"Fireplace",
         icon:<MdOutlineFireplace/>
     },
     {
         id:24,
-        name:"Swimming pool",
+        name:"Swimming Pool",
         icon:<FaWaterLadder/>
     },
     {

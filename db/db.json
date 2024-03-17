@@ -12,7 +12,7 @@
         },
         "features": ["Wifi", "Free Parking", "Laundry Facilities", "Heating", "AC", "Paid Parking", "Workspace","Coffee Maker","Essential Kitchen Applicances", "Stove", "Kitchen Utensils", "Fridge", "Tvs", "Bedding", "Hangers"],
         "amenities": ["Hot Tub", "BBQ Grill", "Patio", "Sauna","Outdoor Dinning Area", "Lake Access", "GYM", "Pool Table", "Fireplace", "Mountain View", "Swimming Pool"],
-        "safety": ["Smoke Alarm", "24/7 Security","First Aid Kit", "Fire Extinguisher", "Emergencey Exit", "Security System", "Fire Escape Ladder"],
+        "safety": ["Smoke Alarm", "24/7 Security","First Aid Kit", "Fire Extinguisher", "Emergency Exit", "Security System", "Fire Escape Ladder"],
         "description": "Welcome to West Avenue Cider!  During Summer 2018 we renovated an existing outbuilding on the property into a 3 bedroom cottage for guests who are visiting the Cider House and who are visiting the Hamilton area.   Its light filled and spacious and we hope you will get to spend some time with us.",
         "cleaning": "Dust all surfaces with a microfiber cloth, then vacuum all floors, focusing on corners and under furniture, to maintain a dust-free environment.",
         "propertyImg": ["https://a0.muscache.com/im/pictures/053a408d-3b32-4fa6-b846-2c7b024f9270.jpg?im_w=1200","https://a0.muscache.com/im/pictures/miso/Hosting-29300878/original/45756561-dc87-44c8-a2e0-ebd24282d147.png?im_w=720", "https://a0.muscache.com/im/pictures/04cc4b14-aaa8-4f32-8fb2-753fe8545428.jpg?im_w=720"],
@@ -43,7 +43,7 @@
         },
         "features":  ["Wifi", "Laundry Facilities", "Heating", "AC", "Paid Parking", "Workspace","Coffee Maker","Essential Kitchen Applicances", "Fridge", "Tvs", "Bedding", "Hangers"],
         "amenities": ["Hot Tub", "BBQ Grill", "Outdoor Dinning Area", "Lake Access", "Fireplace"],
-        "safety": ["Smoke Alarm", "First Aid Kit", "Emergencey Exit", "Security System"],
+        "safety": ["Smoke Alarm", "First Aid Kit", "Emergency Exit", "Security System"],
         "description": "Escape to Rock 'n' House, a marvel featured in Architectural Digest, nestled on a 14-acre estate down a secluded road - 2 hrs from NYC. This architectural wonder with panoramic views and circular design offers seamless integration with nature. Inside, the main level offers open concept living, sunken lounge and dining for 10, with radiant heat & central air to ensure your comfort. Outdoors enjoy stunning vistas from the outdoor firepit and porch table.",
         "cleaning": "clean the toilet, scrub the bathtub and shower walls with a non-abrasive cleaner, and mop the floor with a disinfectant to prevent mold and maintain hygiene.",
         "propertyImg": ["https://a0.muscache.com/im/pictures/prohost-api/Hosting-950729835440706966/original/9fd156b5-afab-4b0e-9400-c007d52e2e96.jpeg?im_w=1200", "https://a0.muscache.com/im/pictures/prohost-api/Hosting-950729835440706966/original/a3baa800-104d-4f6c-bad7-fa80a05a1e6a.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/prohost-api/Hosting-950729835440706966/original/bd81aa15-2cb9-4ecb-9976-d7c2536fe068.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/prohost-api/Hosting-950729835440706966/original/47200cd2-1ab8-46ad-9bc9-8375ec3a24f3.jpeg?im_w=1200"],
@@ -74,7 +74,7 @@
         },
         "features": ["Wifi", "Free Parking", "Laundry Facilities", "Heating", "AC", "Coffee Maker","Essential Kitchen Applicances", "Stove", "Kitchen Utensils", "Fridge", "Tvs", "Bedding", "Hangers"],
         "amenities": [ "Patio", "Pool Table", "Fireplace", "Lake Access"],
-        "safety": ["Smoke Alarm","First Aid Kit", "Fire Extinguisher", "Emergencey Exit", "Security System", "Fire Escape Ladder"],
+        "safety": ["Smoke Alarm","First Aid Kit", "Fire Extinguisher", "Emergency Exit", "Security System", "Fire Escape Ladder"],
         "description": "Stay in a light-filled modern architectural wonder unlike anything else you'll find in the Catskills— just 5 miles outside of the town of Roxbury and 7 miles outside the town of Margaretville! The Shell House half dome, featured in Dwell and other design magazines, was built to be in harmony with the environment and boasts a beautiful view of the Catskills from every room. Extraordinary communal spaces and unique rooms will make this a stay you won't soon forget.",
         "cleaning": "clean the refrigerator, wipe down all appliances with a damp cloth, and scrub countertops and sinks with a mild cleaner to keep the kitchen sanitary and sparkling.",
         "propertyImg": ["https://a0.muscache.com/im/pictures/miso/Hosting-53417893/original/63787420-6a55-4d88-b459-c65d0251ba31.jpeg?im_w=1200", "https://a0.muscache.com/im/pictures/miso/Hosting-53417893/original/6d82536e-6350-4d74-b672-1bcb0bccb1c6.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-53417893/original/629dbec2-bdb8-48ff-afb0-518eec0f8fa0.jpeg?im_w=720"],
@@ -260,7 +260,7 @@
         },
         "features": ["Wifi", "Free Parking", "Laundry Facilities", "Heating", "Stove", "Kitchen Utensils", "Tvs", "Bedding", "Hangers"],
         "amenities": ["BBQ Grill", "Patio", "Outdoor Dinning Area", "Lake Access", "GYM", "Pool Table", "Fireplace", "Swimming Pool"],
-        "safety": ["Smoke Alarm", "First Aid Kit", "Fire Extinguisher", "Emergencey Exit", "Security System"],
+        "safety": ["Smoke Alarm", "First Aid Kit", "Fire Extinguisher", "Emergency Exit", "Security System"],
         "description": "Waves ripple on the walls and in the views from this sleek retreat near White House on Jamaica’s southwest coast. Saltwater spray is nearly close enough to kiss the edges of a pool terrace with loungers and a covered dining area. White and blue interiors nod to the coastal setting in bright, airy living rooms. It’s steps to a private sandy beach and a 1-hour drive to Montego Bay.",
         "cleaning": "Vacuum cleaning all the room and carpets, wipe all the surfaces and glasses.Furniture and countertops before floors.",
         "propertyImg": ["https://a0.muscache.com/im/pictures/miso/Hosting-905113533801031785/original/b10e601b-fa99-4bd1-be36-cb1905c07459.jpeg?im_w=1200", "https://a0.muscache.com/im/pictures/miso/Hosting-905113533801031785/original/82a8da21-1d8f-4988-9678-f137c5ad0d73.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-905113533801031785/original/9a869a3d-c17a-4558-a634-26e2b4d3b6ce.jpeg?im_w=1200","https://a0.muscache.com/im/pictures/miso/Hosting-905113533801031785/original/05e53b8a-6b79-4856-b1eb-5959c90acda2.jpeg?im_w=1200", "https://a0.muscache.com/im/pictures/miso/Hosting-905113533801031785/original/2eb98f74-7327-4b18-84d1-b572fdd77244.jpeg?im_w=1200", "https://a0.muscache.com/im/pictures/miso/Hosting-905113533801031785/original/f3025602-c6c2-4929-a157-53ebed864cc1.jpeg?im_w=720"],
@@ -300,7 +300,7 @@
             "addressLine2":"",
             "city":"Hella",
             "state":"",
-            "country":"Icekabd",
+            "country":"Iceland",
             "postal":"850",
             "instruction": ""
         },
@@ -311,6 +311,8 @@
         "propertyLicense": "https://i.pinimg.com/736x/b1/46/a2/b146a227f1b23aaa9eceb5a7c421aec5.jpg"
       }
     ],
+
+
     "booking": [
       {
         "bid":1,
@@ -372,6 +374,118 @@
         "guest_email": "Aleksandra@example.com",
         "total_price":4940.23
       }
+    ],
 
+
+    "propertyReview":[
+      {
+        "rid": 1,
+        "houseid":2,
+        "guest_firstname":"Elena",
+        "guest_lastname":"Riya",
+        "reviewDate": "2021-03-02",
+        "stars":4,
+        "comment": "I absolutely loved staying here! The apartment was so cozy and welcoming. It had everything I needed and more. The location was fantastic too - close to great restaurants, cafes and public transportation. I couldn't have asked for a better place to call home during my trip. I would highly recommend this spot to anyone looking for a perfect trip!"
+      },
+      {
+        "rid": 2,
+        "houseid":2,
+        "guest_firstname":"Tola",
+        "guest_lastname":"Antikleia",
+        "reviewDate": "2021-05-02",
+        "stars":2,
+        "comment":"Unfortunately disappointing, falling short of the expectations set by the listing. While we appreciate the effort of the host to provide accommodations, several key areas need attention."
+
+      },
+      {
+        "rid": 3,
+        "houseid":1,
+        "guest_firstname":"Fabijan",
+        "guest_lastname":"Vidya",
+        "reviewDate": "2022-04-21",
+        "stars":4,
+        "comment":"Great location and lovely host! The apartment was mostly clean, though we noticed a few spots that could use more attention. Overall, a fantastic stay."
+      },
+      {
+        "rid": 4,
+        "houseid":3,
+        "guest_firstname":"Kianoush",
+        "guest_lastname":"Myrto",
+        "reviewDate": "2022-06-25",
+        "stars":3,
+        "comment":"Decent place for the price. The apartment was a bit smaller than expected and could use some updates. However, the host was friendly and the location was convenient."
+      },
+      {
+        "rid": 5,
+        "houseid":2,
+        "guest_firstname":"Erskine",
+        "guest_lastname":"Iacob",
+        "reviewDate": "2023-03-24",
+        "stars":2,
+        "comment": "Unfortunately, the place didn’t live up to the photos. It was quite dirty and some amenities were missing. The host was hard to reach at times, which made solving these issues harder."
+      },
+      {
+        "rid": 6,
+        "houseid":5,
+        "guest_firstname":"Xochipilli",
+        "guest_lastname":"Noemi",
+        "reviewDate": "2022-04-30",
+        "stars":5,
+        "comment": "Exceptional stay! The apartment was immaculate, beautifully decorated, and the host went above and beyond to ensure we had a great experience. Highly recommend!"
+      },
+      {
+        "rid": 7,
+        "houseid":4,
+        "guest_firstname":"Elena",
+        "guest_lastname":"Rafa'el",
+        "reviewDate": "2023-05-31",
+        "stars":4,
+        "comment": "Very good experience overall. The place was clean and comfortable, with all the necessary amenities. The host was helpful, though the check-in process was a bit complicated."
+      },
+      { 
+      "rid": 8,
+      "houseid":9,
+      "guest_firstname":"Zorica",
+      "guest_lastname":"Gabrielius",
+      "reviewDate": "2024-01-30",
+      "stars":1,
+      "comment": "Extremely disappointed. The place was not only unclean, but we also had issues with the heating that weren’t resolved. Communication with the host was poor. Not recommended."
+      },
+      {
+        "rid": 9,
+        "houseid":8,
+        "guest_firstname":"Fatma",
+        "guest_lastname":"Ewout",
+        "reviewDate": "2023-02-22",
+        "stars":5,
+        "comment":"Perfect stay! The location was ideal for exploring the city, and the apartment felt like a home away from home. The host was very accommodating and gave us great tips."
+      },
+      {
+        "rid": 10,
+        "houseid":7,
+        "guest_firstname":"Prosper",
+        "guest_lastname":"Gabriel",
+        "reviewDate": "2022-11-22",
+        "stars":2,
+        "comment":"The location was good, but that’s about it. The apartment was noisy, and we had issues with pests. The host tried to help, but the problems persisted throughout our stay."
+      },
+      {
+        "rid": 11,
+        "houseid":6,
+        "guest_firstname":"Wairimu",
+        "guest_lastname":"Rayen",
+        "reviewDate": "2022-12-29",
+        "stars":3,
+        "comment":"Average stay. The apartment was as described, but lacked some basic supplies. The host was friendly and the location made up for the minor inconveniences."
+      },
+      {
+        "rid": 12,
+        "houseid":3,
+        "guest_firstname":"Budi",
+        "guest_lastname":"Titilayo",
+        "reviewDate": "2024-02-04",
+        "stars":4,
+        "comment":"Lovely apartment with a stunning view. A few minor issues were quickly resolved by the host, who was very responsive. Would stay again but hope for a smoother experience next time."
+      }
     ]
   }

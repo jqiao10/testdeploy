@@ -65,13 +65,13 @@ function UplaodAmentities(){
       />
             {/* Fireplace */}
             <CheckboxBtn
-        children="Firepalce"
+        children="Fireplace"
         IconComponent={MdOutlineFireplace}
       />
 
             {/* Pool */}
             <CheckboxBtn
-        children="Swimming pool"
+        children="Swimming Pool"
         IconComponent={FaWaterLadder}
       />
 
