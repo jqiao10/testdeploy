@@ -47,7 +47,7 @@ function NavigationBar() {
   {isAccountDropdownOpen && (
      <div className="absolute right-0  top-5 mt-10  pt-20 py-2 w-48 bg-white rounded-md shadow-xl z-20">
      <a href="/cfeedback" className="block px-4 py-2 text-sm text-gray-700 hover:bg-cyan-500 hover:text-white">Cleaning Feedback</a>
-     <a href="/settings" className="block px-4 py-2 text-sm text-gray-700 hover:bg-cyan-500 hover:text-white">Settings</a>
+     <a href="/accountsettingl" className="block px-4 py-2 text-sm text-gray-700 hover:bg-cyan-500 hover:text-white">Settings</a>
      <a href="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-cyan-500 hover:text-white">Logout</a>
    </div>
   )}

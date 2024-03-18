@@ -43,7 +43,7 @@ function UploadSetting() {
               <input
                   type="text"
                   id="title"
-                  className="mt-1 block w-full border-gray-300 shadow-sm rounded-md"
+                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   value={property.find(p => p.id == id)?.title || 'Title not found'}
               />
           </div>
@@ -52,7 +52,7 @@ function UploadSetting() {
               <input
                   type="number"
                   id="livingRooms"
-                  className="mt-1 block w-full border-gray-300 shadow-sm rounded-md"
+                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   value={property.find(p => p.id == id)?.basicInformation.livingroom}
               />
           </div>
@@ -60,9 +60,9 @@ function UploadSetting() {
           <div className="mb-3">
               <label className="font-bold">Kitchen:</label>
               <input
-                  type="text"
+                  type="number"
                   id="kitchen"
-                  className="mt-1 block w-full border-gray-300 shadow-sm rounded-md"
+                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   value={property.find(p => p.id == id)?.basicInformation.kitchen}
               />
           </div>
@@ -72,7 +72,7 @@ function UploadSetting() {
               <input
                   type="number"
                   id="bathroom"
-                  className="mt-1 block w-full border-gray-300 shadow-sm rounded-md"
+                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   value={property.find(p => p.id == id)?.basicInformation.bathroom}
               />
           </div>
@@ -82,7 +82,7 @@ function UploadSetting() {
               <input
                   type="number"
                   id="bedroom"
-                  className="mt-1 block w-full border-gray-300 shadow-sm rounded-md"
+                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   value={property.find(p => p.id == id)?.basicInformation.bedroom}
               />
           </div>
@@ -92,14 +92,14 @@ function UploadSetting() {
               <input
                   type="number"
                   id="guests"
-                  className="mt-1 block w-full border-gray-300 shadow-sm rounded-md"
+                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   value={property.find(p => p.id == id)?.basicInformation.guests}
               />
           </div>
 
 {/* need to change  */}
           <h2 className="font-bold text-lg mb-4 mt-3">Property Features: </h2>
-          <div className="grid grid-cols-3 gap-4 mt-1 block w-full border-gray-300 shadow-sm rounded-md">
+          <div className="grid grid-cols-3 gap-4 mt-1 block w-full border-gray-300 rounded-md shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
                     {property.find(p => p.id == id)?.features.map(feature => (
                         <div key={feature} className="flex items-center">
                             <span>{iconMap.find(i => i.name == feature)?.icon || 'icon not found'}</span>
@@ -109,7 +109,7 @@ function UploadSetting() {
                 </div>
 
                 <h2 className="font-bold text-lg mb-4 mt-3">Property Amenities: </h2>
-          <div className="grid grid-cols-3 gap-4 mt-1 block w-full border-gray-300 shadow-sm rounded-md">
+          <div className="grid grid-cols-3 gap-4 mt-1 block w-full border-gray-300 rounded-md shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
                     {property.find(p => p.id == id)?.amenities.map(amenities => (
                         <div key={amenities} className="flex items-center">
                             <span>{iconMap.find(i => i.name == amenities)?.icon || 'icon not found'}</span>
@@ -119,7 +119,7 @@ function UploadSetting() {
                 </div>
 
                 <h2 className="font-bold text-lg mb-4 mt-3">Property Safety: </h2>
-          <div className="grid grid-cols-3 gap-4 mt-1 block w-full border-gray-300 shadow-sm rounded-md">
+          <div className="grid grid-cols-3 gap-4 mt-1 block w-full border-gray-300 rounded-md shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
                     {property.find(p => p.id == id)?.safety.map(safety => (
                         <div key={safety} className="flex items-center">
                             <span>{iconMap.find(i => i.name == safety)?.icon || 'icon not found'}</span>
@@ -134,7 +134,7 @@ function UploadSetting() {
               <textarea
                   type="text"
                   id="guests"
-                  className="mt-1 block w-full border-gray-300 shadow-sm rounded-md min-h-40"
+                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline min-h-20"
                   value={property.find(p => p.id == id)?.description}
               />
           </div> 
@@ -143,19 +143,19 @@ function UploadSetting() {
               <textarea
                   type="text"
                   id="guests"
-                  className="mt-1 block w-full border-gray-300 shadow-sm rounded-md min-h-40"
+                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline min-h-20"
                   value={property.find(p => p.id == id)?.cleaning}
               />
           </div> 
       
           <div className="mb-3 mt-3">
           <label className="font-bold">Property Image:</label>
-          <div className="flex items-center gap-5 overflow-auto">
+          <div className="flex items-center gap-5 overflow-auto shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
             {property.find(p=> p.id == id)?.propertyImg.map((imgSrc, index) => (
               <img key={index} src={imgSrc} alt={`Property ${property.id} Image ${index + 1}`} className="mb-3 mt-3 block w-1/4 h-40 w-auto "/>
             ))}
             <br/>
-            {/* add new button with remove button on img + drag and drop*/}
+            {/* add new button with remove button on img + drag and*/}
             
             </div>
           </div>
@@ -166,7 +166,7 @@ function UploadSetting() {
               <input
                   type="number"
                   id="addressLine1"
-                  className="mt-1 block w-full border-gray-300 shadow-sm rounded-md"
+                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   value={property.find(p => p.id == id)?.weekdayPrice}
               />
           </div>
@@ -176,7 +176,7 @@ function UploadSetting() {
               <input
                   type="number"
                   id="addressLine2"
-                  className="mt-1 block w-full border-gray-300 shadow-sm rounded-md"
+                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   value={property.find(p => p.id == id)?.weekendPrice}
               />
           </div>
@@ -186,7 +186,7 @@ function UploadSetting() {
               <input
                   type="date"
                   id="addressLine2"
-                  className="mt-1 block w-full border-gray-300 shadow-sm rounded-md"
+                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   value={property.find(p => p.id == id)?.startDate}
               />
           </div>
@@ -196,7 +196,7 @@ function UploadSetting() {
               <input
                   type="date"
                   id="addressLine2"
-                  className="mt-1 block w-full border-gray-300 shadow-sm rounded-md"
+                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   value={property.find(p => p.id == id)?.endDate}
               />
           </div>

@@ -487,5 +487,23 @@
         "stars":4,
         "comment":"Lovely apartment with a stunning view. A few minor issues were quickly resolved by the host, who was very responsive. Would stay again but hope for a smoother experience next time."
       }
+    ],
+
+    "cleaningService":[
+      {
+        "id":1,
+        "houseTitle": "rental office",
+        "cleaningImg": ["https://houstonmom.com/wp-content/uploads/2022/05/278914229_10166095966865084_1152354292119122125_n.jpg"]
+      },
+      {
+        "id":2,
+        "houseTitle": "messy livingroom",
+        "cleaningImg": ["https://imgix.bustle.com/scary-mommy/2021/08/03/Feeling-Like-I-Need-To-Apologize-For-My-Mess-1.jpg?w=1200&h=630&fit=crop&crop=faces&fm=jpg"]
+      },
+      {
+        "id":3,
+        "houseTitle": "messy bedroom",
+        "cleaningImg":["https://www.thesun.co.uk/wp-content/uploads/2020/01/NINTCHDBPICT000558873433.jpg"]
+      }
     ]
   }
