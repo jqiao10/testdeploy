@@ -1,7 +1,7 @@
 {
 "property": [
       {
-        "pid": 1,
+        "id": 1,
         "title":"Somerset Cottage at West Avenue Cider House",
         "basicInformation":{
             "livingroom": 2,
@@ -32,7 +32,7 @@
         "propertyLicense": "https://i.pinimg.com/736x/b1/46/a2/b146a227f1b23aaa9eceb5a7c421aec5.jpg"
       },
       {
-        "pid": 2,
+        "id": 2,
         "title":"Rock 'n' House - Unique Modern Escape with Views",
         "basicInformation":{
             "livingroom": 2,
@@ -63,7 +63,7 @@
         "propertyLicense": "https://i.pinimg.com/736x/b1/46/a2/b146a227f1b23aaa9eceb5a7c421aec5.jpg"
       },
       {
-        "pid": 3,
+        "id": 3,
         "title":"Roxbury Dome House 4BR w/ Mtn Views & Fire Pit",
         "basicInformation":{
             "livingroom": 1,
@@ -94,7 +94,7 @@
         "propertyLicense": "https://i.pinimg.com/736x/b1/46/a2/b146a227f1b23aaa9eceb5a7c421aec5.jpg"
       },
       {
-        "pid": 4,
+        "id": 4,
         "title":"Artsy Glamping experience",
         "basicInformation":{
             "livingroom": 0,
@@ -125,7 +125,7 @@
         "propertyLicense": "https://i.pinimg.com/736x/b1/46/a2/b146a227f1b23aaa9eceb5a7c421aec5.jpg"
       },
       {
-        "pid": 5,
+        "id": 5,
         "title":"Small Space - Big Memories",
         "basicInformation":{
             "livingroom": 1,
@@ -156,7 +156,7 @@
         "propertyLicense": "https://i.pinimg.com/736x/b1/46/a2/b146a227f1b23aaa9eceb5a7c421aec5.jpg"
       },
       {
-        "pid": 6,
+        "id": 6,
         "title":"Cozy private Studio Flat, 21 min to downtown by GO",
         "basicInformation":{
             "livingroom": 0,
@@ -187,7 +187,7 @@
         "propertyLicense": "https://i.pinimg.com/736x/b1/46/a2/b146a227f1b23aaa9eceb5a7c421aec5.jpg"
       },
       {
-        "pid": 7,
+        "id": 7,
         "title":"4 Bed Beach House with Pool, Sauna & Hot Tub",
         "basicInformation":{
             "livingroom": 2,
@@ -218,7 +218,7 @@
         "propertyLicense": "https://i.pinimg.com/736x/b1/46/a2/b146a227f1b23aaa9eceb5a7c421aec5.jpg"
       },
       {
-        "pid": 8,
+        "id": 8,
         "title":"The Castle at Peck's Beach South",
         "basicInformation":{
             "livingroom": 2,
@@ -249,13 +249,13 @@
         "propertyLicense": "https://i.pinimg.com/736x/b1/46/a2/b146a227f1b23aaa9eceb5a7c421aec5.jpg"
       },
       {
-        "pid": 9,
+        "id": 9,
         "title":"Luxury stay in Whitehouse, Westmoreland,",
         "basicInformation":{
             "livingroom": 2,
-            "Kitchen":2,
-            "Bathroom":11,
-            "Bedroom":10,
+            "kitchen":2,
+            "bathroom":11,
+            "bedroom":10,
             "guests":23
         },
         "features": ["Wifi", "Free Parking", "Laundry Facilities", "Heating", "Stove", "Kitchen Utensils", "Tvs", "Bedding", "Hangers"],
@@ -280,7 +280,7 @@
         "propertyLicense": "https://i.pinimg.com/736x/b1/46/a2/b146a227f1b23aaa9eceb5a7c421aec5.jpg"
       },
       {
-        "pid": 10,
+        "id": 10,
         "title":"Glass cottage with Hot tub Blár",
         "basicInformation":{
             "livingroom": 0,
@@ -315,7 +315,7 @@
 
     "booking": [
       {
-        "bid":1,
+        "id":1,
         "startDate": "2022-12-22",
         "endDate": "2022-12-30",
         "houseid":10,
@@ -325,7 +325,7 @@
         "total_price":5678.90
       },
       {
-        "bid":2,
+        "id":2,
         "startDate": "2023-10-22",
         "endDate": "2023-10-30",
         "houseid":9,
@@ -335,7 +335,7 @@
         "total_price":35890.90
       },
       {
-        "bid":3,
+        "id":3,
         "startDate": "2024-3-15",
         "endDate": "2024-4-20",
         "houseid":2,
@@ -345,7 +345,7 @@
         "total_price":53990.90
       },
       {
-        "bid":4,
+        "id":4,
         "startDate": "2024-3-17",
         "endDate": "2024-4-20",
         "houseid":4,
@@ -355,7 +355,7 @@
         "total_price":42990.90
       },
       {
-        "bid":5,
+        "id":5,
         "startDate": "2023-11-17",
         "endDate": "2023-11-20",
         "houseid":5,
@@ -365,7 +365,7 @@
         "total_price":5940.23
       },
       {
-        "bid":6,
+        "id":6,
         "startDate": "2025-11-17",
         "endDate": "2025-11-20",
         "houseid":5,
@@ -379,7 +379,7 @@
 
     "propertyReview":[
       {
-        "rid": 1,
+        "id": 1,
         "houseid":2,
         "guest_firstname":"Elena",
         "guest_lastname":"Riya",
@@ -388,7 +388,7 @@
         "comment": "I absolutely loved staying here! The apartment was so cozy and welcoming. It had everything I needed and more. The location was fantastic too - close to great restaurants, cafes and public transportation. I couldn't have asked for a better place to call home during my trip. I would highly recommend this spot to anyone looking for a perfect trip!"
       },
       {
-        "rid": 2,
+        "id": 2,
         "houseid":2,
         "guest_firstname":"Tola",
         "guest_lastname":"Antikleia",
@@ -398,7 +398,7 @@
 
       },
       {
-        "rid": 3,
+        "id": 3,
         "houseid":1,
         "guest_firstname":"Fabijan",
         "guest_lastname":"Vidya",
@@ -407,7 +407,7 @@
         "comment":"Great location and lovely host! The apartment was mostly clean, though we noticed a few spots that could use more attention. Overall, a fantastic stay."
       },
       {
-        "rid": 4,
+        "id": 4,
         "houseid":3,
         "guest_firstname":"Kianoush",
         "guest_lastname":"Myrto",
@@ -416,7 +416,7 @@
         "comment":"Decent place for the price. The apartment was a bit smaller than expected and could use some updates. However, the host was friendly and the location was convenient."
       },
       {
-        "rid": 5,
+        "id": 5,
         "houseid":2,
         "guest_firstname":"Erskine",
         "guest_lastname":"Iacob",
@@ -425,7 +425,7 @@
         "comment": "Unfortunately, the place didn’t live up to the photos. It was quite dirty and some amenities were missing. The host was hard to reach at times, which made solving these issues harder."
       },
       {
-        "rid": 6,
+        "id": 6,
         "houseid":5,
         "guest_firstname":"Xochipilli",
         "guest_lastname":"Noemi",
@@ -434,7 +434,7 @@
         "comment": "Exceptional stay! The apartment was immaculate, beautifully decorated, and the host went above and beyond to ensure we had a great experience. Highly recommend!"
       },
       {
-        "rid": 7,
+        "id": 7,
         "houseid":4,
         "guest_firstname":"Elena",
         "guest_lastname":"Rafa'el",
@@ -443,7 +443,7 @@
         "comment": "Very good experience overall. The place was clean and comfortable, with all the necessary amenities. The host was helpful, though the check-in process was a bit complicated."
       },
       { 
-      "rid": 8,
+      "id": 8,
       "houseid":9,
       "guest_firstname":"Zorica",
       "guest_lastname":"Gabrielius",
@@ -452,7 +452,7 @@
       "comment": "Extremely disappointed. The place was not only unclean, but we also had issues with the heating that weren’t resolved. Communication with the host was poor. Not recommended."
       },
       {
-        "rid": 9,
+        "id": 9,
         "houseid":8,
         "guest_firstname":"Fatma",
         "guest_lastname":"Ewout",
@@ -461,7 +461,7 @@
         "comment":"Perfect stay! The location was ideal for exploring the city, and the apartment felt like a home away from home. The host was very accommodating and gave us great tips."
       },
       {
-        "rid": 10,
+        "id": 10,
         "houseid":7,
         "guest_firstname":"Prosper",
         "guest_lastname":"Gabriel",
@@ -470,7 +470,7 @@
         "comment":"The location was good, but that’s about it. The apartment was noisy, and we had issues with pests. The host tried to help, but the problems persisted throughout our stay."
       },
       {
-        "rid": 11,
+        "id": 11,
         "houseid":6,
         "guest_firstname":"Wairimu",
         "guest_lastname":"Rayen",
@@ -479,7 +479,7 @@
         "comment":"Average stay. The apartment was as described, but lacked some basic supplies. The host was friendly and the location made up for the minor inconveniences."
       },
       {
-        "rid": 12,
+        "id": 12,
         "houseid":3,
         "guest_firstname":"Budi",
         "guest_lastname":"Titilayo",

@@ -23,6 +23,7 @@ import Previous from './Pages/LandlordSection/Previous';
 import Upcoming from './Pages/LandlordSection/Upcoming';
 import Current from './Pages/LandlordSection/Current';
 import PropertyPreview from './Pages/LandlordSection/PropertyPreview';
+import UploadSetting from './Pages/UplaodProcess/UploadSetting';
 
 
 function App() {
@@ -53,6 +54,7 @@ function App() {
       <Route path='/upcomingt' element={<Upcoming/>}></Route>
       <Route path='/currentt' element={<Current/>}></Route>
       <Route path='/previewproperty/:id' element={<PropertyPreview/>}></Route>
+      <Route path='/settingproperty/:id' element={<UploadSetting/>}></Route>
 
       <Route path='/' element={<Landlord/>}></Route>
 
