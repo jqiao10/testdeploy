@@ -1,0 +1,303 @@
+[
+    {
+      "title":"Somerset Cottage at West Avenue Cider House",
+      "basicInformation":{
+          "livingroom": 2,
+          "kitchen":1,
+          "bathroom":3,
+          "bedroom":4,
+          "guests":5
+      },
+      "features": ["Wifi", "Free Parking", "Laundry Facilities", "Heating", "AC", "Paid Parking", "Workspace","Coffee Maker","Essential Kitchen Applicances", "Stove", "Kitchen Utensils", "Fridge", "Tvs", "Bedding", "Hangers"],
+      "amenities": ["Hot Tub", "BBQ Grill", "Patio", "Sauna","Outdoor Dinning Area", "Lake Access", "GYM", "Pool Table", "Fireplace", "Mountain View", "Swimming Pool"],
+      "safety": ["Smoke Alarm", "24/7 Security","First Aid Kit", "Fire Extinguisher", "Emergency Exit", "Security System", "Fire Escape Ladder"],
+      "description": "Welcome to West Avenue Cider!  During Summer 2018 we renovated an existing outbuilding on the property into a 3 bedroom cottage for guests who are visiting the Cider House and who are visiting the Hamilton area.   Its light filled and spacious and we hope you will get to spend some time with us.",
+      "cleaning": "Dust all surfaces with a microfiber cloth, then vacuum all floors, focusing on corners and under furniture, to maintain a dust-free environment.",
+      "propertyImg": ["https://a0.muscache.com/im/pictures/053a408d-3b32-4fa6-b846-2c7b024f9270.jpg?im_w=1200","https://a0.muscache.com/im/pictures/miso/Hosting-29300878/original/45756561-dc87-44c8-a2e0-ebd24282d147.png?im_w=720", "https://a0.muscache.com/im/pictures/04cc4b14-aaa8-4f32-8fb2-753fe8545428.jpg?im_w=720"],
+      "address":{
+          "addressLine1": "783 Oakleaf Lane",
+          "addressLine2":"",
+          "city":"Hamilton",
+          "state":"ON",
+          "country":"Canada",
+          "postal":"L9A 4E2",
+          "instruction": ""
+      },
+      "weekdayPrice": 300,
+      "weekendPrice": 350,
+      "startDate":"2024-09-02",
+      "endDate":"2029-09-02",
+      "propertyLicense": "https://i.pinimg.com/736x/b1/46/a2/b146a227f1b23aaa9eceb5a7c421aec5.jpg"
+    },
+    {
+      "title":"Rock 'n' House - Unique Modern Escape with Views",
+      "basicInformation":{
+          "livingroom": 2,
+          "kitchen":2,
+          "bathroom":4,
+          "bedroom":4,
+          "guests":8
+      },
+      "features":  ["Wifi", "Laundry Facilities", "Heating", "AC", "Paid Parking", "Workspace","Coffee Maker","Essential Kitchen Applicances", "Fridge", "Tvs", "Bedding", "Hangers"],
+      "amenities": ["Hot Tub", "BBQ Grill", "Outdoor Dinning Area", "Lake Access", "Fireplace"],
+      "safety": ["Smoke Alarm", "First Aid Kit", "Emergency Exit", "Security System"],
+      "description": "Escape to Rock 'n' House, a marvel featured in Architectural Digest, nestled on a 14-acre estate down a secluded road - 2 hrs from NYC. This architectural wonder with panoramic views and circular design offers seamless integration with nature. Inside, the main level offers open concept living, sunken lounge and dining for 10, with radiant heat & central air to ensure your comfort. Outdoors enjoy stunning vistas from the outdoor firepit and porch table.",
+      "cleaning": "clean the toilet, scrub the bathtub and shower walls with a non-abrasive cleaner, and mop the floor with a disinfectant to prevent mold and maintain hygiene.",
+      "propertyImg": ["https://a0.muscache.com/im/pictures/prohost-api/Hosting-950729835440706966/original/9fd156b5-afab-4b0e-9400-c007d52e2e96.jpeg?im_w=1200", "https://a0.muscache.com/im/pictures/prohost-api/Hosting-950729835440706966/original/a3baa800-104d-4f6c-bad7-fa80a05a1e6a.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/prohost-api/Hosting-950729835440706966/original/bd81aa15-2cb9-4ecb-9976-d7c2536fe068.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/prohost-api/Hosting-950729835440706966/original/47200cd2-1ab8-46ad-9bc9-8375ec3a24f3.jpeg?im_w=1200"],
+      "address":{
+          "addressLine1": "382 Timberwood Lane",
+          "addressLine2":"",
+          "city":"Saugerties",
+          "state":"NY",
+          "country":"United State",
+          "postal":"12477",
+          "instruction": ""
+      },
+      "weekdayPrice": 1435,
+      "weekendPrice": 1832,
+      "startDate":"2024-03-02",
+      "endDate":"2029-03-02",
+      "propertyLicense": "https://i.pinimg.com/736x/b1/46/a2/b146a227f1b23aaa9eceb5a7c421aec5.jpg"
+    },
+    {
+      "title":"Roxbury Dome House 4BR w/ Mtn Views & Fire Pit",
+      "basicInformation":{
+          "livingroom": 1,
+          "kitchen":1,
+          "bathroom":2,
+          "bedroom":4,
+          "guests":5
+      },
+      "features": ["Wifi", "Free Parking", "Laundry Facilities", "Heating", "AC", "Coffee Maker","Essential Kitchen Applicances", "Stove", "Kitchen Utensils", "Fridge", "Tvs", "Bedding", "Hangers"],
+      "amenities": [ "Patio", "Pool Table", "Fireplace", "Lake Access"],
+      "safety": ["Smoke Alarm","First Aid Kit", "Fire Extinguisher", "Emergency Exit", "Security System", "Fire Escape Ladder"],
+      "description": "Stay in a light-filled modern architectural wonder unlike anything else you'll find in the Catskills— just 5 miles outside of the town of Roxbury and 7 miles outside the town of Margaretville! The Shell House half dome, featured in Dwell and other design magazines, was built to be in harmony with the environment and boasts a beautiful view of the Catskills from every room. Extraordinary communal spaces and unique rooms will make this a stay you won't soon forget.",
+      "cleaning": "clean the refrigerator, wipe down all appliances with a damp cloth, and scrub countertops and sinks with a mild cleaner to keep the kitchen sanitary and sparkling.",
+      "propertyImg": ["https://a0.muscache.com/im/pictures/miso/Hosting-53417893/original/63787420-6a55-4d88-b459-c65d0251ba31.jpeg?im_w=1200", "https://a0.muscache.com/im/pictures/miso/Hosting-53417893/original/6d82536e-6350-4d74-b672-1bcb0bccb1c6.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-53417893/original/629dbec2-bdb8-48ff-afb0-518eec0f8fa0.jpeg?im_w=720"],
+      "address":{    
+      "addressLine1": "1456 Pineview Drive",
+          "addressLine2":"",
+          "city":"Roxbury",
+          "state":"NY",
+          "country":"United State",
+          "postal":"12474",
+          "instruction": ""
+      },
+      "weekdayPrice": 982,
+      "weekendPrice": 1022,
+      "startDate":"2023-10-02",
+      "endDate":"2028-10-02",
+      "propertyLicense": "https://i.pinimg.com/736x/b1/46/a2/b146a227f1b23aaa9eceb5a7c421aec5.jpg"
+    },
+    {
+      "title":"Artsy Glamping experience",
+      "basicInformation":{
+          "livingroom": 0,
+          "kitchen":1,
+          "bathroom":1,
+          "bedroom":1,
+          "guests":2
+      },
+      "features": ["Wifi", "Free Parking","Heating", "AC", "Essential Kitchen Applicances", "Stove", "Kitchen Utensils", "Fridge", "Hangers"],
+      "amenities": ["Mountain View"],
+      "safety": ["Smoke Alarm","First Aid Kit", "Fire Extinguisher"],
+      "description": " Beautiful tiny home, (10 ft. x 10 ft. with a sleeping loft above),designed by an architect, set on the hillside in rural Ontario, just 4 K from the artsy town of Warkworth. 30 acres with walking trails through the woods, outhouse, (An outhouse is a small structure, separate from a main building, which covers a toilet, with no plumbing.) warm water outdoor shower, (not available in the winter),large deck for star gazing, fire pit small cooling off pool in summer.",
+      "cleaning": "Wash all bedding, including sheets, pillowcases, and duvet covers, in hot water.",
+      "propertyImg": ["https://a0.muscache.com/im/pictures/miso/Hosting-27730223/original/5f3366e7-19a8-4f9c-b58c-222c607c5a11.jpeg?im_w=1200", "https://a0.muscache.com/im/pictures/miso/Hosting-27730223/original/e9105cb5-8dbc-45c7-877b-0710e65f9b8a.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-27730223/original/1086d435-1f42-48ed-8911-066c347f3eaa.jpeg?im_w=720","https://a0.muscache.com/im/pictures/miso/Hosting-27730223/original/aa94421c-677f-4820-9c29-5eef201defb5.jpeg?im_w=720"],
+      "address":{    
+      "addressLine1": "647 Maple Ridge Drive",
+          "addressLine2":"",
+          "city":"Castleton",
+          "state":"ON",
+          "country":"Canada",
+          "postal":"K0K 1M0",
+          "instruction": ""
+      },
+      "weekdayPrice": 150,
+      "weekendPrice": 200,
+      "startDate":"2023-10-23",
+      "endDate":"2028-10-23",
+      "propertyLicense": "https://i.pinimg.com/736x/b1/46/a2/b146a227f1b23aaa9eceb5a7c421aec5.jpg"
+    },
+    {
+      "title":"Small Space - Big Memories",
+      "basicInformation":{
+          "livingroom": 1,
+          "kitchen":1,
+          "bathroom":1,
+          "bedroom":1,
+          "guests":3
+      },
+      "features": ["Wifi", "Laundry Facilities", "Heating", "AC", "Coffee Maker", "Fridge", "Tvs", "Bedding", "Hangers"],
+      "amenities": ["Patio", "Fireplace","Outdoor Dinning Area"],
+      "safety": ["Smoke Alarm","Fire Extinguisher"],
+      "description": "This cottage is one of three on our seven acre property and is approximately 380 sq ft with approx 300 Sq ft of deck which steps down into a professionally designed fire pit. We provide firewood for you to enjoy a great fire under the stars.",
+      "cleaning": "Dust ceiling fans and light fixtures using a long-handled duster to remove cobwebs.",
+      "propertyImg": ["https://a0.muscache.com/im/pictures/miso/Hosting-42119072/original/5f7fd82d-14dd-45af-91e7-ef5de999b193.jpeg?im_w=1200", "https://a0.muscache.com/im/pictures/miso/Hosting-42119072/original/ddce8585-dde2-4cb3-ac3e-90a757ae3d06.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-42119072/original/0248df05-d475-40d0-9324-a5d691f9c523.jpeg?im_w=720","https://a0.muscache.com/im/pictures/60f11fc6-f45b-429f-8811-782612e0cb87.jpg?im_w=720", "https://a0.muscache.com/im/pictures/87e80327-eb60-42a5-a472-27328c6421e2.jpg?im_w=1200"],
+      "address":{
+          "addressLine1": "862 Riverbend Road",
+          "addressLine2":"",
+          "city":"Campbellford",
+          "state":"ON",
+          "country":"Canada",
+          "postal":"K0L 1L0",
+          "instruction": ""
+      },
+      "weekdayPrice": 156,
+      "weekendPrice": 210,
+      "startDate":"2024-09-27",
+      "endDate":"2029-09-27",
+      "propertyLicense": "https://i.pinimg.com/736x/b1/46/a2/b146a227f1b23aaa9eceb5a7c421aec5.jpg"
+    },
+    {
+      "title":"Cozy private Studio Flat, 21 min to downtown by GO",
+      "basicInformation":{
+          "livingroom": 0,
+          "kitchen":0,
+          "bathroom":1,
+          "bedroom":1,
+          "guests":2
+      },
+      "features": ["Wifi", "Free Parking", "Heating", "AC", "Stove", "Fridge", "Tvs", "Bedding", "Hangers"],
+      "amenities": ["Swimming Pool"],
+      "safety": ["Smoke Alarm", "First Aid Kit"],
+      "description": "The Studio Flat is very cozy and private and is located beside the patio and pool. The Studio Flat is for your exclusive use and is not shared with others. It is ideal for remote work, transitional housing, or a place to relax on your own or with your significant other. The studio flat has a mini fridge, microwave, Keurig coffee maker, kettle, toaster, dishes, and utensils. The Studio Flat also has a 3 piece ensuite washroom and a very comfortable double sized Murphy Bed and 42” Roku Smart TV.",
+      "cleaning": "Vacuum all carpets, paying extra attention to high-traffic areas and under furniture.",
+      "propertyImg": ["https://a0.muscache.com/im/pictures/85236962/f57d277b_original.jpg?im_w=1200", "https://a0.muscache.com/im/pictures/94031618/dde045e4_original.jpg?im_w=720", "https://a0.muscache.com/im/pictures/94026605/95841bd8_original.jpg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-5025880/original/e22612ce-0b45-45fe-9d99-bc55efc505ad.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/94030573/2daee3e4_original.jpg?im_w=720"],
+      "address":{
+          "addressLine1": "215 Mapleview Lane",
+          "addressLine2":"",
+          "city":"Toronto",
+          "state":"ON",
+          "country":"Canada",
+          "postal":"M4B 2S3",
+          "instruction": ""
+      },
+      "weekdayPrice": 110,
+      "weekendPrice": 130,
+      "startDate":"2023-08-02",
+      "endDate":"2028-08-02",
+      "propertyLicense": "https://i.pinimg.com/736x/b1/46/a2/b146a227f1b23aaa9eceb5a7c421aec5.jpg"
+    },
+    {
+      "title":"4 Bed Beach House with Pool, Sauna & Hot Tub",
+      "basicInformation":{
+          "livingroom": 2,
+          "kitchen":1,
+          "bathroom":3,
+          "bedroom":4,
+          "guests":16
+      },
+      "features": ["Wifi", "Free Parking", "Laundry Facilities", "Heating", "AC", "Coffee Maker", "Stove",  "Fridge", "Tvs", "Bedding", "Hangers"],
+      "amenities": ["Hot Tub", "BBQ Grill", "Outdoor Dinning Area", "Swimming Pool"],
+      "safety": ["Smoke Alarm", "First Aid Kit", "Security System"],
+      "description": "Welcome to the ultimate beachside retreat! This luxury beach-style home offers everything you need for a memorable vacation. With a patio, pool, hot tub, and sauna in the backyard, plus a stunning Lake just steps away, this is your ticket to relaxation and adventure.",
+      "cleaning": "Wipe down all kitchen surfaces with a disinfectant spray and clean the stovetop. Clean the pool.",
+      "propertyImg": ["https://a0.muscache.com/im/pictures/miso/Hosting-943562253454147171/original/84cb2140-4eb3-42f6-9c83-97f9dde872de.jpeg?im_w=1200", "https://a0.muscache.com/im/pictures/miso/Hosting-943562253454147171/original/c1df5da1-9c9e-49c3-804a-f12e92053223.jpeg?im_w=720","https://a0.muscache.com/im/pictures/miso/Hosting-943562253454147171/original/e9b026a9-c960-495a-b506-444199c60c54.jpeg?im_w=720"],
+      "address":{
+          "addressLine1": "438 Crescent Park Blvd",
+          "addressLine2":"",
+          "city":"Mississauga",
+          "state":"ON",
+          "country":"Canada",
+          "postal":"L5B 3C4",
+          "instruction": ""
+      },
+      "weekdayPrice": 564,
+      "weekendPrice": 628,
+      "startDate":"2023-09-20",
+      "endDate":"2028-09-20",
+      "propertyLicense": "https://i.pinimg.com/736x/b1/46/a2/b146a227f1b23aaa9eceb5a7c421aec5.jpg"
+    },
+    {
+      "title":"The Castle at Peck's Beach South",
+      "basicInformation":{
+          "livingroom": 2,
+          "kitchen":1,
+          "bathroom":5,
+          "bedroom":3,
+          "Guests":16
+      },
+      "features": ["Wifi", "Free Parking", "Laundry Facilities", "AC", "Coffee Maker","Essential Kitchen Applicances", "Stove", "Kitchen Utensils", "Bedding", "Hangers"],
+      "amenities": ["Hot Tub", "BBQ Grill", "Patio", "Outdoor Dinning Area", "Lake Access", "GYM", "Pool Table", "Swimming Pool"],
+      "safety": ["Smoke Alarm", "Fire Extinguisher", "Security System"],
+      "description": "Experience luxury beachfront living in this newly constructed duplex top floor unit with five bedrooms and five baths. Unwind in style with high-end amenities including a private elevator, garage parking and a private beach entrance. Kids will love the Cabana room with arcade games while adults relax on the beach chairs and sundecks. This is the perfect vacation spot for families or friends looking to soak up the sun and enjoy the best of beachfront living.",
+      "cleaning": "Empty all trash cans, clean them with a disinfecting spray, and replace bags.",
+      "propertyImg": ["https://a0.muscache.com/im/pictures/miso/Hosting-902896260638945494/original/7114a9fb-3aa5-42da-b8a3-ee269662b4de.jpeg?im_w=1200", "https://a0.muscache.com/im/pictures/miso/Hosting-902896260638945494/original/fed258a6-cf1c-4ce2-a864-7bbef881b732.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-902896260638945494/original/6098b88d-db79-4b49-adc9-12aa727afe65.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-902896260638945494/original/b68a6830-7895-4f2c-a247-4f0a1d00592a.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-902896260638945494/original/8c3981ff-e581-4d70-86c1-19ccacf7918d.jpeg?im_w=720"],
+      "address":{
+          "addressLine1": "721 Seabreeze Avenue",
+          "addressLine2":"",
+          "city":"Ocean City",
+          "state":"NJ",
+          "country":"United State",
+          "postal":"08226",
+          "instruction": ""
+      },
+      "weekdayPrice": 1424,
+      "weekendPrice": 1632,
+      "startDate":"2022-11-23",
+      "endDate":"2027-11-23",
+      "propertyLicense": "https://i.pinimg.com/736x/b1/46/a2/b146a227f1b23aaa9eceb5a7c421aec5.jpg"
+    },
+    {
+      "title":"Luxury stay in Whitehouse, Westmoreland,",
+      "basicInformation":{
+          "livingroom": 2,
+          "kitchen":2,
+          "bathroom":11,
+          "bedroom":10,
+          "guests":23
+      },
+      "features": ["Wifi", "Free Parking", "Laundry Facilities", "Heating", "Stove", "Kitchen Utensils", "Tvs", "Bedding", "Hangers"],
+      "amenities": ["BBQ Grill", "Patio", "Outdoor Dinning Area", "Lake Access", "GYM", "Pool Table", "Fireplace", "Swimming Pool"],
+      "safety": ["Smoke Alarm", "First Aid Kit", "Fire Extinguisher", "Emergency Exit", "Security System"],
+      "description": "Waves ripple on the walls and in the views from this sleek retreat near White House on Jamaica’s southwest coast. Saltwater spray is nearly close enough to kiss the edges of a pool terrace with loungers and a covered dining area. White and blue interiors nod to the coastal setting in bright, airy living rooms. It’s steps to a private sandy beach and a 1-hour drive to Montego Bay.",
+      "cleaning": "Vacuum cleaning all the room and carpets, wipe all the surfaces and glasses.Furniture and countertops before floors.",
+      "propertyImg": ["https://a0.muscache.com/im/pictures/miso/Hosting-905113533801031785/original/b10e601b-fa99-4bd1-be36-cb1905c07459.jpeg?im_w=1200", "https://a0.muscache.com/im/pictures/miso/Hosting-905113533801031785/original/82a8da21-1d8f-4988-9678-f137c5ad0d73.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-905113533801031785/original/9a869a3d-c17a-4558-a634-26e2b4d3b6ce.jpeg?im_w=1200","https://a0.muscache.com/im/pictures/miso/Hosting-905113533801031785/original/05e53b8a-6b79-4856-b1eb-5959c90acda2.jpeg?im_w=1200", "https://a0.muscache.com/im/pictures/miso/Hosting-905113533801031785/original/2eb98f74-7327-4b18-84d1-b572fdd77244.jpeg?im_w=1200", "https://a0.muscache.com/im/pictures/miso/Hosting-905113533801031785/original/f3025602-c6c2-4929-a157-53ebed864cc1.jpeg?im_w=720"],
+      "address":{
+          "addressLine1": "58 Palm Grove Lane",
+          "addressLine2":"",
+          "city":"Savanna-la-Mar",
+          "state":"Westmoreland",
+          "country":"Jamaica",
+          "postal":"N/A",
+          "instruction": "No postal system available"
+      },
+      "weekdayPrice": 3172,
+      "weekendPrice": 3821,
+      "startDate":"2022-11-02",
+      "endDate":"2027-11-02",
+      "propertyLicense": "https://i.pinimg.com/736x/b1/46/a2/b146a227f1b23aaa9eceb5a7c421aec5.jpg"
+    },
+    {
+      "title":"Glass cottage with Hot tub Blár",
+      "basicInformation":{
+          "livingroom": 0,
+          "kitchen":1,
+          "bathroom":1,
+          "bedroom":1,
+          "guests":2
+      },
+      "features": ["Wifi", "Free Parking", "Laundry Facilities", "Heating", "AC", "Coffee Maker", "Fridge", "Tvs", "Bedding"],
+      "amenities": ["Hot Tub"],
+      "safety": ["First Aid Kit", "Fire Extinguisher"],
+      "description": "We are located on a lava desert in the south of Iceland. 5 minutes from the small town of Hella, close to all the popular attractions that southern Iceland has to offer, but also in a secret and secluded location.",
+      "cleaning": "Begin with decluttering surfaces and floors. Dust from top to bottom, focusing on all surfaces and corners. Vacuum carpets and mop hard floors. Clean kitchen counters, appliances, and bathroom fixtures. Finish by wiping down windows and mirrors for a sparkling touch.",
+      "propertyImg": ["https://a0.muscache.com/im/pictures/ade2f12c-d3b2-4c66-9b0d-39fa8a772c9e.jpg?im_w=1200", "https://a0.muscache.com/im/pictures/miso/Hosting-42164367/original/f2d572d3-acac-4935-8b28-b8b2e3093942.jpeg?im_w=720", "https://a0.muscache.com/im/pictures/miso/Hosting-42164367/original/f982ef05-5cdd-449f-9a08-e3f6e249adcf.jpeg?im_w=1200", "https://a0.muscache.com/im/pictures/miso/Hosting-42164367/original/825164f4-edfd-44e7-b998-e362148d927f.jpeg?im_w=1200", "https://a0.muscache.com/im/pictures/miso/Hosting-42164367/original/d626c25f-cab3-4d8f-b7b5-432419d338a2.jpeg?im_w=1200"],
+      "address":{
+          "addressLine1": "12 Norðurbraut",
+          "addressLine2":"",
+          "city":"Hella",
+          "state":"",
+          "country":"Iceland",
+          "postal":"850",
+          "instruction": ""
+      },
+      "weekdayPrice": 1042,
+      "weekendPrice": 1209,
+      "startDate":"2022-09-02",
+      "endDate":"2027-09-02",
+      "propertyLicense": "https://i.pinimg.com/736x/b1/46/a2/b146a227f1b23aaa9eceb5a7c421aec5.jpg"
+    }
+
+]

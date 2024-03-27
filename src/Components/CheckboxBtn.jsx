@@ -1,22 +1,20 @@
 import React,{useState} from 'react';
 
-
-
 function CheckboxBtn ({children, IconComponent, ...rest  }){
     const [isChecked, setIsChecked] = useState(false);
     const handleCheckboxChange = (e) => {
-        setIsChecked(e.target.checked);
-      };
-  return (
+      setIsChecked(e.target.checked);
+    };
+    return (
     <label style={{ display: 'flex', alignItems: 'center', gap: '10px' }} className='gridItem'>
-        <br/>
+      <br/>
     <input type="checkbox" {...rest} checked={isChecked} onChange={handleCheckboxChange}/>
-        <br/>
+      <br/>
     {IconComponent && <IconComponent size={50}/>}
     {children}
-  </label>
-    
-  );
-};
+    </label>
 
-export default CheckboxBtn;
+    );
+    };
+
+    export default CheckboxBtn;

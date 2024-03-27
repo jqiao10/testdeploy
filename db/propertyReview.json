@@ -1,0 +1,99 @@
+[
+    {
+      "houseid":2,
+      "guest_firstname":"Elena",
+      "guest_lastname":"Riya",
+      "reviewDate": "2021-03-02",
+      "stars":4,
+      "comment": "I absolutely loved staying here! The apartment was so cozy and welcoming. It had everything I needed and more. The location was fantastic too - close to great restaurants, cafes and public transportation. I couldn't have asked for a better place to call home during my trip. I would highly recommend this spot to anyone looking for a perfect trip!"
+    },
+    {
+      "houseid":2,
+      "guest_firstname":"Tola",
+      "guest_lastname":"Antikleia",
+      "reviewDate": "2021-05-02",
+      "stars":2,
+      "comment":"Unfortunately disappointing, falling short of the expectations set by the listing. While we appreciate the effort of the host to provide accommodations, several key areas need attention."
+
+    },
+    {
+      "houseid":1,
+      "guest_firstname":"Fabijan",
+      "guest_lastname":"Vidya",
+      "reviewDate": "2022-04-21",
+      "stars":4,
+      "comment":"Great location and lovely host! The apartment was mostly clean, though we noticed a few spots that could use more attention. Overall, a fantastic stay."
+    },
+    {
+      "houseid":3,
+      "guest_firstname":"Kianoush",
+      "guest_lastname":"Myrto",
+      "reviewDate": "2022-06-25",
+      "stars":3,
+      "comment":"Decent place for the price. The apartment was a bit smaller than expected and could use some updates. However, the host was friendly and the location was convenient."
+    },
+    {
+      "houseid":2,
+      "guest_firstname":"Erskine",
+      "guest_lastname":"Iacob",
+      "reviewDate": "2023-03-24",
+      "stars":2,
+      "comment": "Unfortunately, the place didn’t live up to the photos. It was quite dirty and some amenities were missing. The host was hard to reach at times, which made solving these issues harder."
+    },
+    {
+      "houseid":5,
+      "guest_firstname":"Xochipilli",
+      "guest_lastname":"Noemi",
+      "reviewDate": "2022-04-30",
+      "stars":5,
+      "comment": "Exceptional stay! The apartment was immaculate, beautifully decorated, and the host went above and beyond to ensure we had a great experience. Highly recommend!"
+    },
+    {
+      "houseid":4,
+      "guest_firstname":"Elena",
+      "guest_lastname":"Rafa'el",
+      "reviewDate": "2023-05-31",
+      "stars":4,
+      "comment": "Very good experience overall. The place was clean and comfortable, with all the necessary amenities. The host was helpful, though the check-in process was a bit complicated."
+    },
+    { 
+    "houseid":9,
+    "guest_firstname":"Zorica",
+    "guest_lastname":"Gabrielius",
+    "reviewDate": "2024-01-30",
+    "stars":1,
+    "comment": "Extremely disappointed. The place was not only unclean, but we also had issues with the heating that weren’t resolved. Communication with the host was poor. Not recommended."
+    },
+    {
+      "houseid":8,
+      "guest_firstname":"Fatma",
+      "guest_lastname":"Ewout",
+      "reviewDate": "2023-02-22",
+      "stars":5,
+      "comment":"Perfect stay! The location was ideal for exploring the city, and the apartment felt like a home away from home. The host was very accommodating and gave us great tips."
+    },
+    {
+      "houseid":7,
+      "guest_firstname":"Prosper",
+      "guest_lastname":"Gabriel",
+      "reviewDate": "2022-11-22",
+      "stars":2,
+      "comment":"The location was good, but that’s about it. The apartment was noisy, and we had issues with pests. The host tried to help, but the problems persisted throughout our stay."
+    },
+    {
+      "houseid":6,
+      "guest_firstname":"Wairimu",
+      "guest_lastname":"Rayen",
+      "reviewDate": "2022-12-29",
+      "stars":3,
+      "comment":"Average stay. The apartment was as described, but lacked some basic supplies. The host was friendly and the location made up for the minor inconveniences."
+    },
+    {
+      "houseid":3,
+      "guest_firstname":"Budi",
+      "guest_lastname":"Titilayo",
+      "reviewDate": "2024-02-04",
+      "stars":4,
+      "comment":"Lovely apartment with a stunning view. A few minor issues were quickly resolved by the host, who was very responsive. Would stay again but hope for a smoother experience next time."
+    }
+  ]

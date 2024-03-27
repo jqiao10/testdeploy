@@ -1,5 +1,4 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 import ImageUploading from 'react-images-uploading';
 
 
@@ -14,7 +13,7 @@ function ImgBtn(){
     };
   
     return (
-      <Container fluid>
+      <div>
         <ImageUploading
           multiple
           value={images}
@@ -32,30 +31,36 @@ function ImgBtn(){
             dragProps,
           }) => (
             // write your building UI
-            <div className="upload__image-wrapper">
-              <button
-              className="btn"
-                style={isDragging ? { color: 'red' } : undefined}
-                onClick={onImageUpload}
-                {...dragProps}
-              >
-                Click or Drop here
-              </button>
-              &nbsp;
-              <button className="btn" onClick={onImageRemoveAll}>Remove all images</button>
+            <div class="flex flex-col justify-between h-full">
+            <button
+              className="rounded-full ring ring-cyan-500 bg-cyan-500 text-white text-xl hover:ring-cyan-800 px-5 py-3 mb-10 mt-5 self-center"
+              style={isDragging ? { color: 'red' } : undefined}
+              onClick={onImageUpload}
+              {...dragProps}>
+              Click or Drop here
+            </button>
+          
+            <div>
               {imageList.map((image, index) => (
-                <div key={index} className="image-item">
+                <div key={index} className="image-item mb-4 flex justify-center">
                   <img src={image['data_url']} alt="" width="100" />
-                  <div className="image-item__btn-wrapper">
+                  <div className="image-item__btn-wrapper flex justify-around w-full">
                     <button onClick={() => onImageUpdate(index)}>Update</button>
                     <button onClick={() => onImageRemove(index)}>Remove</button>
                   </div>
                 </div>
               ))}
             </div>
+          
+            <button
+              className="rounded-full ring ring-cyan-500 bg-cyan-500 text-white text-xl hover:ring-cyan-800 px-5 py-3 mt-10 self-center"
+              onClick={onImageRemoveAll}>
+              Remove all images
+            </button>
+          </div>
           )}
         </ImageUploading>
-      </Container>
+      </div>
     );
   }
 export default ImgBtn;

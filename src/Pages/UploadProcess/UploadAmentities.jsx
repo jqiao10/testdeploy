@@ -2,28 +2,24 @@ import React from "react"
 import NormalBtn from "../../Components/NormalBtn";
 import CheckboxBtn from "../../Components/CheckboxBtn";
 import CheckboxOthers from "../../Components/CheckboxOthers";
-import { Container,Row, Col} from "react-bootstrap";
-import { FaHotTub, FaWater, FaChair} from "react-icons/fa";
+import { FaHotTub, FaWater, FaChair, FaMountain} from "react-icons/fa";
 import { MdOutdoorGrill,MdOutlineFireplace, MdDinnerDining} from "react-icons/md";
 import { FaWaterLadder } from "react-icons/fa6";
-import { GiPoolTableCorner } from "react-icons/gi";
+import { GiPoolTableCorner,GiHeatHaze} from "react-icons/gi";
 import { CgGym } from "react-icons/cg";
-import NavigationBar from "../../Components/NavigationBar";
+
 
 function UplaodAmentities(){
     return(
       <div>
-      <header className='stickyHeader'>
-      <NavigationBar/>
-      </header>
-      <div className="upload">
-        <Container fluid className="uploadContainer">
-        <h1 className="uploadQuestion">Tell us some amentities you offered</h1>
-        <p className="explain">Tell your potential tenant what anmentities to expected from this property</p>
+     <div className="mt-1 pt-1">
+      <h1 className="text-2xl text-center mt-5" >Tell us some amentities you offered</h1>
+      <p className="text-center mr-5 ml-5">Tell your potential tenant what anmentities to expected from this property</p>
         <br/>
 
 
-        <div className="checkgrid">
+        <div className="flex justify-center">
+        <div  class="grid grid-cols-3 gap-5 auto-cols-max mt-5">
             {/* hot tub */}
             <CheckboxBtn
         children="Hot Tub"
@@ -31,7 +27,7 @@ function UplaodAmentities(){
       />
             {/* BBQ Grill */}
             <CheckboxBtn
-        children="Hot Tub"
+        children="BBQ Grill"
         IconComponent={MdOutdoorGrill}
       />
             {/* Patio */}
@@ -42,14 +38,20 @@ function UplaodAmentities(){
 
             {/* Outdoor/ Backyard Dinning area */}
             <CheckboxBtn
-        children="Outdoor/ Backyard Dinning Area"
+        children="Outdoor Dinning Area"
         IconComponent={MdDinnerDining}
       />
 
             {/* Lake access */}
             <CheckboxBtn
-        children="lake Access"
+        children="Lake Access"
         IconComponent={FaWater}
+      />
+
+      {/* Mountain view */}
+      <CheckboxBtn
+        children="Mountain View"
+        IconComponent={FaMountain}
       />
             {/* GYM */}
             <CheckboxBtn
@@ -63,33 +65,34 @@ function UplaodAmentities(){
       />
             {/* Fireplace */}
             <CheckboxBtn
-        children="Firepalce"
+        children="Fireplace"
         IconComponent={MdOutlineFireplace}
       />
 
             {/* Pool */}
             <CheckboxBtn
-        children="lake Access"
+        children="Swimming Pool"
         IconComponent={FaWaterLadder}
+      />
+
+      {/* sauna */}
+      <CheckboxBtn
+        children="Sauna"
+        IconComponent={GiHeatHaze}
       />
       
        {/* others */}
        <CheckboxOthers children="Others"/>
       
         </div>
+        </div>
 
         <br />
-  <Container fluid className="buttons">
-<Row className="justify-content-between mb-2">
-  <Col xs="auto">
-    <NormalBtn href="/uploadlisting/feature">Back</NormalBtn>
-  </Col>
-  <Col xs="auto">
-    <NormalBtn href="/uploadlisting/safety">Next</NormalBtn>
-  </Col>
-</Row>
-</Container>
-</Container>
+    <div className="text-center mt-5 flex justify-center space-x-20 gap-20">
+      <NormalBtn href="/uploadlisting/feature" className="pr-10">Back</NormalBtn>
+      <NormalBtn href="/uploadlisting/safety" className='ml-10'>Next</NormalBtn>
+      </div>
+ 
 </div>
 </div>
     )
