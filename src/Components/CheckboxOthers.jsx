@@ -13,7 +13,7 @@ return(
          <input type="checkbox" {...rest} checked={isChecked} onChange={handleCheckboxChange}/>
         {children}
         <br/>
-        <input className="border-1 border-cyan-500" />
+        <input className="border-1 border-cyan-500" placeholder="Others" />
         </label>
         </div>
  

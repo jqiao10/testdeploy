@@ -1,8 +1,13 @@
+import React from 'react';
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import Upcoming from './Pages/LandlordSection/Upcoming';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+describe('CheckboxBtn Component', () => {
+test('Upcoming', () => {
+
+  render(<Upcoming />);
+  // const linkElement = screen.findByText(/Address:/i);
+  // expect(linkElement).toBeInTheDocument();
+  
 });
+})

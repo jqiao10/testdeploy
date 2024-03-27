@@ -1,0 +1,56 @@
+[
+    {
+      "startDate": "2022-12-22",
+      "endDate": "2022-12-30",
+      "houseid":10,
+      "guest_firstname":"Elle",
+      "guest_lastname": "Kelly",
+      "guest_email": "ellekelly@example.com",
+      "total_price":5678.90
+    },
+    {
+      "startDate": "2023-10-22",
+      "endDate": "2023-10-30",
+      "houseid":9,
+      "guest_firstname":"Iris",
+      "guest_lastname": "Wang",
+      "guest_email": "iriswang@example.com",
+      "total_price":35890.90
+    },
+    {
+      "startDate": "2024-3-15",
+      "endDate": "2024-4-20",
+      "houseid":2,
+      "guest_firstname":"Abdollah",
+      "guest_lastname": "Paphnoutios",
+      "guest_email": "APaphnoutios@example.com",
+      "total_price":53990.90
+    },
+    {
+      "startDate": "2024-3-17",
+      "endDate": "2024-4-20",
+      "houseid":4,
+      "guest_firstname":"Adalet",
+      "guest_lastname": "Ramesh",
+      "guest_email": "ARamesh@example.com",
+      "total_price":42990.90
+    },
+    {
+      "startDate": "2023-11-17",
+      "endDate": "2023-11-20",
+      "houseid":5,
+      "guest_firstname":"Jonas",
+      "guest_lastname": "Athaliah",
+      "guest_email": "JonasAthaliah@example.com",
+      "total_price":5940.23
+    },
+    {
+      "startDate": "2025-11-17",
+      "endDate": "2025-11-20",
+      "houseid":5,
+      "guest_firstname":"Aleksandra",
+      "guest_lastname": "Waldo",
+      "guest_email": "Aleksandra@example.com",
+      "total_price":4940.23
+    }
+  ]

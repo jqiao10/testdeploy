@@ -50,11 +50,11 @@ const resultBookings = previousBookings(booking);
             <div className="min-h-0 md:max-lg:min-h-full">
             <BookingCard
               index={index}
-              propertyImg={property.find(p => p.id === item.houseid)?.propertyImg[0] || 'Property Image Not Found'}
-              title={property.find(p => p.id === item.houseid)?.title || 'Title Not Found'}
-              city={property.find(p => p.id === item.houseid)?.address.city || 'City not found'}
-              state={property.find(p => p.id === item.houseid)?.address.state || 'State not found'}
-              country={property.find(p => p.id === item.houseid)?.address.country || 'Country not found'}
+              propertyImg={property.find(p => p.id == item.houseid)?.propertyImg[0] || 'Property Image Not Found'}
+              title={property.find(p => p.id == item.houseid)?.title || 'Title Not Found'}
+              city={property.find(p => p.id == item.houseid)?.address.city || 'City not found'}
+              state={property.find(p => p.id == item.houseid)?.address.state || 'State not found'}
+              country={property.find(p => p.id == item.houseid)?.address.country || 'Country not found'}
               guest_firstname={item.guest_firstname}
               guest_lastname={item.guest_lastname}
               guest_email={item.guest_email}
