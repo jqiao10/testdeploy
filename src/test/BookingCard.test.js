@@ -10,7 +10,6 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import BookingCard from "../Components/BookingCard";
-import Current from "../Pages/LandlordSection/Current";
 
 describe('BookingCard', () => {
     test('renders BookingCard with props', () => {
