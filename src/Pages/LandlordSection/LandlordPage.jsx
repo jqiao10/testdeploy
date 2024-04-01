@@ -4,6 +4,7 @@
       import { Link } from 'react-router-dom';
       import ConfirmDelete from '../../Components/ConfirmDelete';
       import {iconMap} from '../../info/icons';
+      import axios from "axios";
 
 
       function LandlordPage(){
@@ -19,17 +20,20 @@
 
       //local
       useEffect(() => {
-      fetch('http://localhost:3001/property')
-      .then(response => response.json())
-      .then(data => setProperty(data))
-      .catch(error => console.error('Error:', error));
+        axios.get('http://localhost:3001/property')
+          .then(response => {
+            setProperty(response.data);
+            console.log(response.data);
+          })
+          .catch(error => console.error('Error:', error));
       }, []);
 
       return(
       <div className="items-center ml-20 mr-10">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-      {property.map((item, index) => (
-      <div key={index} className="min-h-0 md:max-lg:min-h-full bg-white shadow-lg rounded-lg overflow-hidden">
+      {property.map((item) => (
+        
+      <div key={item._id} className="min-h-0 md:max-lg:min-h-full bg-white shadow-lg rounded-lg overflow-hidden">
       <img src={item.propertyImg[0]} alt="Property" className="w-full"/>
 
       <div className="p-6">
@@ -51,12 +55,12 @@
       </div>
 
       <div className="px-6 pt-4 pb-2 flex justify-between items-center">
-      <Link to={`/settingproperty/${item.id}`} className="text-cyan-500 cursor-pointer hover:text-cyan-600 transition duration-300 ease-in-out">
+      <Link to={`/settingproperty/${item._id}`} className="text-cyan-500 cursor-pointer hover:text-cyan-600 transition duration-300 ease-in-out">
       <RiSettings2Fill size="1.5em"/>
       </Link>
 
       <div className="flex justify-end items-center space-x-4">
-      <Link to={`/previewproperty/${item.id}`} className="text-cyan-500 cursor-pointer hover:text-cyan-600 transition duration-300 ease-in-out">
+      <Link to={`/previewproperty/${item._id}`} className="text-cyan-500 cursor-pointer hover:text-cyan-600 transition duration-300 ease-in-out">
         <MdRemoveRedEye size="1.5em"/>
       </Link>
 
